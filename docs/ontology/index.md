@@ -16,6 +16,27 @@ This ontology is designed by and for amateur animal behaviour watchers. It provi
 
 A secondary use case is that of professional researchers into animal behaviour. Even if this ontology is not always consistent with the most current academic thinking, it can be used to build bridges between different interpretations or labels, as well as between 'citizens' and 'scientists'. If behaviour watchers use the labels to annotate publicly accessible instances of behaviour, it may assist professionals in searching for examples of unusual behaviour, or extensions of known behaviour to new animal taxa.
 
+### Why is it needed?
+
+What amateur behaviour watchers (and students beginning a life of ethology) crave, is an open access place to find labels and definitions for behaviours and categories of behaviour, with which to help them understand and record any behaviour they might encounter. For a price, paper glossaries might be bought such as the [Animal Behavior Desk Reference](https://doi.org/10.1201/b10864). But this and its ilk are an exhausting resource to bring to a five second video clip for a label, and have limited internal cross-references, let alone in a hierarchical set of categories.
+
+Elephants currently probably have the most comprehensively categorised set of publicly accessible behaviour labels (see [Elephant Voices](https://www.elephantvoices.org/studies-a-projects/the-elephant-ethogram.html)). A handful of other taxon-specific glossaries and ethograms exist in scattered, patchy, often basic, and somewhat incompatible forms.
+
+In 2011, a comprehensive, new ontology was launched. Called the [Neuro-Behavioural Ontology](https://www.ebi.ac.uk/ols4/ontologies/nbo) (NBO) and with a huge amount of goodwill, it scattered a vast range of behavioural shotgun pellets out into the behaviour-scape. Sadly, it rapidly ran aground on the shifting sands of its multiple use cases, and just couldn't be reconciled to the needs of all key stakeholders. It was for most purposes abandoned, never having come close to achieving its vision. Unfortunately, the way ontologies often crosslink to each other meant that a number of them had quickly become dependant on its continuing existence. And so it languished, effectively in limbo, with only minor attempts at what one correspondent called 'hacking'. A sage in the ontology world wrote of the NBO in January 2023:
+> This ontology is functionally inactive, and I think it should be declared as such... to be fully transparent.
+
+<p style="text-align: right">
+  <a href="https://github.com/obo-behavior/behavior-ontology/issues/126#issuecomment-1397651952">Chris Mungall</a>
+</p>
+
+From this point, a year-long attempt was made to ressurect the NBO, trying to tackle its multiple methodological and content shortcomings. Sadly, no significant progress was made to achieve consensus in the scientific community for its revamp, although a handful of edits were made, and new structural models described, to illustrate possible ways forward. Efforts ceased in February 2024 (see [Issue 127](https://github.com/obo-behavior/behavior-ontology/issues/127#issuecomment-1925736023)). By 25th November 2025, nothing more had been done either to edit or end it.
+
+The AAO takes in a large scope, but with a more focused use case, not dependant on funding, and able to move forward without so many restrictions. It will undoubtedly have its gaps and failings. But unless it is replaced by something more water tight, it should provide at least a raft for those of us otherwise left to flounder.
+
+By taking a public domain approach, we hope it will also provide leads to promising new avenues of ethological research. We hope this can then lead to highly collaborative forms of Citizan Science.
+
+And as an incidental, we want to enable the principles of [FAIR data](https://en.wikipedia.org/wiki/FAIR_data) (findability, accessibility, interoperability, reusability).
+
 ### What's an ontology?
 
 > An ontology contains a formal classification of terminology in a domain that provides textual and machine readable definitions, and defines the relationships between terms. An ontology is a terminology, but a terminology is not (necessarily) an ontology.
