@@ -10,6 +10,8 @@ Having undergone a closed, primordial development phase, the project is now open
 
 Sister projects are also being developed to test the use of labelling developed here, for annotating searchable repositories of animal behaviour records, most notably at [iNaturalist](https://www.inaturalist.org). Collaborators are also being sought, who are able to test and extend these sister projects to their own records in various repositories, such as [xeno-canto](https://xeno-canto.org).
 
+***If you would like to collaborate, feel free to contact [Ditch Townsend](https://orcid.org/0000-0002-4277-2151)***
+
 ### Who is this for?
 
 This ontology is designed by and for amateur animal behaviour watchers. It provides us with a system for classifying what could potentially be seen, heard, felt, or otherwise tangibly discerned by us. It can also help us to share knowledge with each other. For some of us, it could extend the scope of natural observation beyond taxonomy. For others, it may replace taxonomy as our root observational paradigm, with taxonomy having the supplementary role. In other words, 'collecting' behaviours.
