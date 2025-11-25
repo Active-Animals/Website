@@ -10,6 +10,12 @@ Having undergone a closed, primordial development phase, the initiative is now o
 
 Sister initiatives are also being developed to test the use of labelling developed here, for annotating searchable repositories of animal behaviour records, most notably at iNaturalist. Collaborators are also being sought, who are able to test and extend these sister initiatives to their own records in various repositories.
 
+## Who is this for?
+
+This ontology is designed by and for amateur animal behaviour watchers. It provides us with a system for classifying what could potentially be seen, heard, felt, or otherwise tangibly discerned by us. It can also help us to share knowledge with each other. For some of us, it could extend the scope of natural observation beyond taxonomy. For others, it may replace taxonomy as our root observational paradigm, with taxonomy having the supplementary role. In other words, 'collecting' behaviours.
+
+A secondary use case is that of professional researchers into animal behaviour. Even if this ontology is not always consistent with the most current academic thinking, it can be used to build bridges between different interpretations or labels, as well as between 'citizens' and 'scientists'. If behaviour watchers use the labels to annotate publicly accessible instances of behaviour, it may assist professionals in searching for examples of unusual behaviour, or extensions of known behaviour to new animal taxa.
+
 ## What's an ontology?
 
 > An ontology contains a formal classification of terminology in a domain that provides textual and machine readable definitions, and defines the relationships between terms. An ontology is a terminology, but a terminology is not (necessarily) an ontology.
