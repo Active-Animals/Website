@@ -14,7 +14,7 @@ Sister projects are also being developed to test the use of labelling developed 
 
 ### Who is this for?
 
-This ontology is designed by and for amateur animal behaviour watchers. It provides us with a system for classifying what could potentially be seen, heard, felt, or otherwise tangibly discerned by us. It can also help us to share knowledge with each other. For some of us, it could extend the scope of natural observation beyond taxonomy. For others, it may replace taxonomy as our root observational paradigm, with taxonomy having the supplementary role. In other words, 'collecting' behaviours.
+This tool is designed by and for amateur animal behaviour watchers. It provides us with a system for classifying what could potentially be seen, heard, felt, or otherwise tangibly discerned by us. It can also help us to share knowledge with each other. For some of us, it could extend the scope of natural observation beyond taxonomy. For others, it may replace taxonomy as our root observational paradigm, with taxonomy having the supplementary role. In other words, 'collecting' behaviours.
 
 A secondary use case is that of professional researchers into animal behaviour. Even if this ontology is not always consistent with the most current academic thinking, it can be used to build bridges between different interpretations or labels, as well as between 'citizens' and 'scientists'. If behaviour watchers use the labels to annotate publicly accessible instances of behaviour, it may assist professionals in searching for examples of unusual behaviour, or extensions of known behaviour to new animal taxa.
 
@@ -80,6 +80,16 @@ Remember that much is missing from the ontology and you may need to offer edits 
 If you want to improve the ontology, make sure you understand the section, [Can I contribute?](#can-i-contribute) Then tuck into the page about [Editing](ontology/editing).
 
 NB: You may offer edits to this Introduction or the Editing page too, although anything but typos in the Editing page may need some debate before being adopted by us all.
+
+### Where is it?
+
+The ontology structure is presently saved as a project in Stanford University's WebProtege server. It is only visible to shared users, who for now are those accredited as collaborators. A download of the current WebProtege AAO project file will include all edits and can be opened and viewed in more detail using the standalone desktop Protege or other ontology software.
+
+WebProtege allows collaborators to mutually edit the ontology. In due course, we hope to provide an easy tool for users to locate appropriate labels for applying to their own observation records.
+
+A dream is for our ontology to one day be accepted as a reference ontology in the OBO Foundry ontology community.
+
+In the medium term, we will eventually regularly upload versions to Bioportal.
 
 ### Can I contribute?
 
