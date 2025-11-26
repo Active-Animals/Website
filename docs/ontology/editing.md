@@ -220,5 +220,21 @@ An almost infinite array of compound terms is possible. We need to limit this:
 
 5) Unless the words are used in tandem in the source, they should be very close together in its text and there should be no doubt about them modifying the meaning of each other.
 
+#### Starting
+If you want to create new terms, ask the manager to allocate you a batch of ID codes (these are then applied automatically).
+
+Select a parent class (you can change it later), click the Create button, and write a label which is unique to the behaviour branch of the ontology. (WebProtégé will auto-insert the ID and IRI, and the created_by and creation-date annotations.) 
+
+If the label must duplicate a non-behaviour branch label, here is a trick learned the hard way:
+  1. first create it with a mis-spelling;
+  2. when the class has been created and saved, correct the spelling, but not immediately;
+  3. there may be some delay as WebProtégé catches up with itself internally;
+     - too soon, and it may list both as labels alongside each other;
+       - in this case, go back and delete the superfluous one;
+     - otherwise autofill will simply insert the other class with the same name;
+       - if this happens by mistake, do not compound the error by deleting the pre-existing class;
+       - instead delete its mistaken parent in its own parent's list;
+  4. and then refresh your view
+
 
 -----
