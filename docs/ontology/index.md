@@ -54,7 +54,7 @@ It might also be, that you want to add one or more non-behaviour (descriptive) c
 
 Only in exceptional cases do we label composite behaviours (usually if they have a unique term, or if they are synergistic and not merely additive). In other words, if you wish to label a co-occurent set of behaviours, label each one of them. The same goes for non-behaviours.
 
-Remember that much is missing from the ontology and you may need to offer edits to existing entries, or new terms. If you want to improve the ontology, make sure you understand the section, [Can I contribute?](#can-i-contribute) Then tuck into the page about [EDITING](ontology/editing).
+Remember that much is missing from the ontology and you may need to offer edits to existing entries, or new terms. If you want to improve the ontology, make sure you understand the section, [Can I contribute?](#can-i-contribute) Then tuck into the page about [EDITING](editing).
 
 NB: You may offer edits to this Introduction or the Editing page too, although anything but typos in the Editing page may need some debate before being adopted by us all.
 
@@ -92,7 +92,7 @@ During the Beta development phase, a significant number of positions will be ava
 
 Only in the open, final phase will the ontology be fully open. This stage will also mark an accountable and participatory organisation and management structure, including a mechanism for changing leadership.
 
-Feel free to look over our [EDITING](ontology/editing) guidelines.
+Feel free to look over our [EDITING](editing) guidelines.
 
 ***If you would like to collaborate, feel free to contact [Ditch Townsend](https://orcid.org/0000-0002-4277-2151)***
 
