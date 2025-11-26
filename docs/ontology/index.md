@@ -1,20 +1,22 @@
 # Active Animals Ontology (AAO)
 
-Welcome to the Active Animals Ontology.
+Welcome!
+
+We're all about classifying animal behaviour and cataloguing observations.
 
 ## Introduction
 
-[Ethology](https://doi.org/10.3389/fetho.2023.1270913) is the study of proximate causes of behaviour (mechanisms and development), and their ultimate roots (evolution and function). Behaviour classification is generally [a typological ordering system](https://doi.org/10.1046/j.1439-0469.2002.00211.x)[^1]. In this project, we are attempting to tease out some order from the, "almost chaotic diversity,"  of behaviour, by grouping its mechanisms (the more observable component of ethology, like swimming) and their overlap with function (the tip of an iceberg, where context allows reasonable inferences, such as escaping).
+The study of the mechanisms, development, evolution and function of behaviour is called [Ethology](https://doi.org/10.3389/fetho.2023.1270913). Behaviour classification is generally [a typological ordering system](https://doi.org/10.1046/j.1439-0469.2002.00211.x)[^1]. In this project, we are attempting to tease out some order from the, "almost chaotic diversity,"  of behaviour, by classifying its mechanisms (the more observable component of ethology, such as *swimming*) and their functional-context (the tip of the function iceberg wherein context may allow reasonable inferences, such as *escaping*).
 
-Having undergone a closed, primordial development phase, the AAO project is now open for Alpha testing and redesign. Those interested in animal behaviour, who are willing to contribute directly, are invited to collaborate. [Sister projects](#what-about-observations-and-examples) are also being developed to test the use of labelling developed here, for annotating searchable repositories of animal behaviour records, most notably at [iNaturalist](https://www.inaturalist.org). Collaborators are also being sought, who are able to test and extend these sister projects to their own records in various repositories, such as [xeno-canto](https://xeno-canto.org).
+Having undergone a closed, primordial development phase, the AAO project is now open for Alpha testing and redesign. Those interested in animal behaviour, and who are willing to contribute directly, are invited to collaborate. [Sister projects](#what-about-observations-and-examples) are also being developed to test the use of labelling developed here, for annotating searchable repositories of animal behaviour records, most notably at [iNaturalist](https://www.inaturalist.org). Collaborators are also being sought, who are able to test and extend these sister projects to their own records in various repositories, such as [xeno-canto](https://xeno-canto.org).
 
 ***If you would like to collaborate, check out the section: [Can I contribute?](#can-i-contribute)***
 
 ### Who is this for?
 
-This ontology is a tool designed and maintained by and for amateur animal behaviour watchers. It provides us with a system for classifying what could potentially be seen, heard, felt, or otherwise tangibly discerned by us. It can also help us to share knowledge with each other. For some of us, it could extend the scope of natural observation beyond taxonomy. For others, it may even replace taxonomy as our root observational paradigm, with taxonomy having the supplementary role. In other words, 'collecting' behaviours.
+This ontology is a tool designed and maintained by and for amateur animal behaviour watchers. It provides us with a system for classifying what could potentially be seen, heard, felt, or otherwise tangibly discerned by us. It can also help us to share knowledge with each other. For some of us, it could extend the scope of natural observation beyond taxonomy. For others, it may even replace taxonomy as our main observational paradigm, with taxonomy having the supplementary role. In other words, 'collecting' behaviours.
 
-A secondary use case is that of professional researchers into animal behaviour. Even if this ontology is not always consistent with the most current academic thinking, it can be used to build bridges between different interpretations or labels, as well as between 'citizens' and 'scientists'. If behaviour watchers use the labels to annotate publicly accessible instances of behaviour, it may assist professionals in searching for examples of unusual behaviour, or extensions of known behaviour to new animal taxa.
+A secondary use case is that of professional researchers into animal behaviour. Even if this ontology is not always consistent with the most current academic thinking, it can be used to build bridges between different interpretations or labels, as well as between 'citizens' and 'scientists'. If behaviour watchers use the labels to annotate publicly accessible artefacts as Instances of behaviour, it may assist professionals in searching for examples of unusual behaviour, or extensions of known behaviour to new animal taxa.
 
 ### Why is it needed?
 
