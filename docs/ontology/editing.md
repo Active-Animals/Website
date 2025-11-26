@@ -71,9 +71,9 @@ Annotations allow us to understand more about a given class. It may give informa
   - Required annotations for all terms are:
     - rdfs:label
     - dc:source
+    - hasDefinition (this can be waived short-term)
   - As required annotations are:
     - hasBroadSynonym
-    - hasDefinition
     - hasExactSynonym
     - hasNarrowSynonym
     - hasRelatedSynonym
@@ -83,3 +83,7 @@ Annotations allow us to understand more about a given class. It may give informa
     - skos:example (for valuable illustrations)
     - skos:scopeNote (for an idea about the content or limits of a concept, usually where the definition is not yet finally composed)
 
+###### NON-BEHAVIOURS
+  -  Required annotations for new ontology sources (but requiring management agreement) are:
+     - dcterms:license
+  - Imported terms often come with an array of annotation 'baggage'. Much of this can be stripped away to reduce confusion for future local users. 
