@@ -65,13 +65,13 @@ This is not a reference for potentially maladaptive behaviours, and excludes so-
 
 However, damage, variability, phenotype, and physiological state are referenced in the non-behaviour part of this ontology, alongside personality. These are all possible modulators of what could otherwise be adaptive behaviours.
 
-NB: We are not describing specific individuals, except as instances for illustration and typing.
+NB: We are not describing specific individuals, except as Instances for illustration and typing.
 
 ### How does it work?
 
-You use the ontology's labels to annotate an instance of behaviour (e.g. one of your photos, sound recordings, or video clips). To find the right label, you need to look in the behavior branch hierarchy. You might be able to work your own way through a particular sub-branch to what you are looking for. Or you might want to try searching for a word you think is in the ontology somewhere. Bear in mind that some behaviours are listed with more than one parent class, or as part of another, so you might come at what you are looking for from different routes.
+You use the ontology's labels to annotate a behaviour observation (sometimes called artefacts, e.g. one of your photos, sound recordings, or video clips). To find the right label, you need to look in the behavior branch hierarchy. You might be able to work your own way through a particular sub-branch to what you are looking for. Or you might want to try searching for a word you think is in the ontology somewhere. Bear in mind that some behaviours are listed with more than one parent class, or as part of another, so you might come at what you are looking for from different routes.
 
-It might also be, that you want to add one or more non-behaviour classes to your annotation. The taxonomic characteristics (e.g. species) will be managed by your observation's host platform, if you are using a depository like iNaturalist to save your observations.
+It might also be, that you want to add one or more non-behaviour (descriptive) classes to your annotation, relating to issues such as habitat or morphology. A range of these are appended to our ontology. The taxonomic characteristics (e.g. species) will be managed by your observation's host platform, if you are using a depository like iNaturalist to save your observations.
 
 Only in exceptional cases do we label composite behaviours (usually if they have a unique term, or if they are synergistic and not merely additive). In other words, if you wish to label a co-occurent set of behaviours, label each one of them. The same goes for non-behaviours.
 
@@ -90,6 +90,14 @@ WebProtégé allows collaborators to mutually edit the ontology (even simultaneo
 In the Beta phase, we hope to provide an easier tool for users to locate appropriate labels for applying to their own observation records. By the end of the Alpha phase, we will regularly upload versions to [Bioportal](https://bioportal.bioontology.org) and this will provide an interim search solution to users without access to the WebProtégé project.
 
 Unless the NBO is resurrected or a better replacement is created, we hope that our ontology will one day be accepted as a reference ontology in the [OBO Foundry](https://obofoundry.org) ontology community.
+
+### What about observations and examples?
+
+This project does not provide any storage for artefacts. Behavioural records are located in repositories in the form of example observations (ontologically referred to as Instances). iNaturalist provides the world's largest open data source of animal observations. Alongside this are a number of other open access online repositories for behavioural artefacts, such as xeno-canto. Most of these allow users to annotate or tag their uploads, and providing good labels for these annotations is our goal.
+
+The [Active Animals (AA)](https://www.inaturalist.org/projects/active-animals-aa) project at iNaturalist is a way for animal behavioural records to be aggregated systematically there. Our ontology here provides the systematic source labels for the project's basic Observation Fields there. The AA project is also in its Alpha stage and interested collaborators are encouraged to message the project's own administration there.
+
+Restricted access resources are unlikely to be referenced by the ontology, except in justifiable cases involving affordable entry or membership fees (e.g. behavioural artefacts like tools, nests, or fossils in museums, or videos which may be sourced in libraries, such as natural history documentaries on DVD). Some public animal behaviour resources also store accessible behavioural artefacts, such as Elephant Voices.
 
 ### Can I contribute?
 
