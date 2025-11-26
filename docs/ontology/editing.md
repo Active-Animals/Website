@@ -167,4 +167,16 @@ The same word may have different meanings in different sources. The following me
   4. It is possible that a synonym string is used in multiple terms but only one way (without the need for an ID suffix), without being used as a primary label anywhere.
   5. Where two synonymised occurrences of a label have the same meaning but different to a primary label usage, select one ID suffix to use for both. This could be one of the two occurrences, or in the case of a shared parent (most likely to happen with a Broad synonym) it could be the ID of the shared parent.
 
+### Obsoletion
+
+It is not our role to judge the validity of an assertion. Before considering incompatibility, be sure you are not better served with a [Synonym](#synonyms).
+
+However, scientific ideas evolve and new ideas emerge which may be incompatible with former ones, and we need to be able to differentiate these assertions from one another. With sufficient consensus, an rdfs:Comment can be added to the effect that it is an INACTIVE TERM simply meaning that it should not be used for ongoing annotation.  Where a concept is directly criticised in a source as obsolete, defunct, or a similar appelation, consider using the annotation property 'skos:scopeNote' to quote or summarise the criticism, along with 'dc:source'.
+
+If incompatibility is clear, then create a new term. Annotate both with rdfs:seeAlso. In OWL syntax, we can also annotate a term as OWL:deprecated, which means it will appear crossed-out, yet will not disappear from the ontology, and remains visible to the reasoner. It also means the ID will not be reused, so there will be no confusion over its edit history.
+
+Don't simply hijack a label, since the term history could become incomprehensible. Instead consider alternatives which preserve the old and the new. For example, give a clarifying word after a hyphen in the label, although try to relate it to the clarifying author (e.g. 'migrating-Smith' and 'migrating-Jones) or concept, rather than simply '-old' and '-new'. Some new concepts will come with their own new labels. If you must reuse a label for the new concept, ensure the deprecated term has some label in addition to its old ID number.
+
+This whole topic may be revisited in due course.
+
 -----
