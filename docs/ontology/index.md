@@ -83,13 +83,13 @@ NB: You may offer edits to this Introduction or the Editing page too, although a
 
 ### Where is it?
 
-The ontology structure is presently saved as a project in Stanford University's WebProtege server. It is only visible to shared users, who for now are those accredited as collaborators. A download of the current WebProtege AAO project file will include all edits and can be opened and viewed in more detail using the standalone desktop Protege or other ontology software.
+The Active Animal's ontology structure and edit history is saved as a project in Stanford University's [WebProtégé](https://webprotege.stanford.edu) server. In this Alpha development phase, it is only visible to shared users who are accredited as collaborators. 
 
-WebProtege allows collaborators to mutually edit the ontology. In due course, we hope to provide an easy tool for users to locate appropriate labels for applying to their own observation records.
+WebProtégé allows collaborators to mutually edit the ontology (even simultaneously if needed). A download of the current WebProtégé AAO project file (owl/rdf/xml), including all edits but no history, can also be viewed in more detail using the standalone desktop [Protégé](https://protege.stanford.edu) or other ontology software, but offline edits do not presently have a merging process.
 
-A dream is for our ontology to one day be accepted as a reference ontology in the OBO Foundry ontology community.
+In the Beta phase, we hope to provide an easier tool for users to locate appropriate labels for applying to their own observation records. By the end of the Alpha phase, we will regularly upload versions to [Bioportal](https://bioportal.bioontology.org) and this will provide an interim search solution to users without access to the WebProtégé project.
 
-In the medium term, we will eventually regularly upload versions to Bioportal.
+Unless the NBO is resurrected or a better replacement is created, we hope that our ontology will one day be accepted as a reference ontology in the [OBO Foundry](https://obofoundry.org) ontology community.
 
 ### Can I contribute?
 
