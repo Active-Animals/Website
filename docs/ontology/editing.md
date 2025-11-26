@@ -236,5 +236,7 @@ If the label must duplicate a non-behaviour branch label, here is a trick learne
        - instead delete its mistaken parent in its own parent's list;
   4. and then refresh your view
 
+#### Word form
+Try to select a word form for the new term, such that it can form a meaningful binomial as both parent and child, when spoken in the word order subclass > superclass, with the option to complete the phrase with a high level term such as 'behaviour' (e.g. singing vocal behaviour, vocal acoustic behaviour, acoustic signaling).
 
 -----
