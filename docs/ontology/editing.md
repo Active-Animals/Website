@@ -87,3 +87,8 @@ Annotations allow us to understand more about a given class. It may give informa
   -  Required annotations for new ontology sources (but requiring management agreement) are:
      - dcterms:license
   - Imported terms often come with an array of annotation 'baggage'. Much of this can be stripped away to reduce confusion for future local users. 
+
+##### DON'T Use
+  - A number of Annotation Properties belong to external ontologies and have been retained for their utility in understanding them, but please don't use them for our behaviour terms.
+  - Owl properties are built into Protege but should not be introduced to our ontology without management agreement.
+    - owl:deprecated should only be used after extensive discussion.
