@@ -54,9 +54,7 @@ It might also be, that you want to add one or more non-behaviour (descriptive) c
 
 Only in exceptional cases do we label composite behaviours (usually if they have a unique term, or if they are synergistic and not merely additive). In other words, if you wish to label a co-occurent set of behaviours, label each one of them. The same goes for non-behaviours.
 
-Remember that much is missing from the ontology and you may need to offer edits to existing entries, or new terms.
-
-If you want to improve the ontology, make sure you understand the section, [Can I contribute?](#can-i-contribute) Then tuck into the page about [Editing](ontology/editing).
+Remember that much is missing from the ontology and you may need to offer edits to existing entries, or new terms. If you want to improve the ontology, make sure you understand the section, [Can I contribute?](#can-i-contribute) Then tuck into the page about [Editing](ontology/editing).
 
 NB: You may offer edits to this Introduction or the Editing page too, although anything but typos in the Editing page may need some debate before being adopted by us all.
 
@@ -68,7 +66,7 @@ WebProtégé allows collaborators to mutually edit the ontology (even simultaneo
 
 In the Beta phase, we hope to provide an easier tool for users to locate appropriate labels for applying to their own observation records. By the end of the Alpha phase, we will regularly upload versions to [Bioportal](https://bioportal.bioontology.org) and this will provide an interim search solution to users without access to the WebProtégé project.
 
-Unless the NBO is resurrected or a better replacement is created, we hope that our ontology will one day be accepted as a reference ontology in the [OBO Foundry](https://obofoundry.org) ontology community.
+Unless the [Neuro-Behavioural Ontology](https://www.ebi.ac.uk/ols4/ontologies/nbo) (NBO) is resurrected or a better replacement is created, we hope that our ontology will one day be accepted as a reference ontology in the [OBO Foundry](https://obofoundry.org) ontology community.
 
 ### What about observations and examples?
 
@@ -76,7 +74,7 @@ This project does not provide any storage for artefacts. Behavioural records are
 
 The [Active Animals (AA)](https://www.inaturalist.org/projects/active-animals-aa) project at iNaturalist is a way for animal behavioural records to be aggregated systematically there. Our ontology here provides the systematic source labels for the project's basic Observation Fields there. The AA project is also in its Alpha stage and interested collaborators are encouraged to message the project's own administration there.
 
-Restricted access resources are unlikely to be referenced by the ontology, except in justifiable cases involving affordable entry or membership fees (e.g. behavioural artefacts like tools, nests, or fossils in museums, or videos which may be sourced in libraries, such as natural history documentaries on DVD). Some public animal behaviour resources also store accessible behavioural artefacts, such as Elephant Voices.
+Restricted access resources are unlikely to be referenced by the ontology, except in justifiable cases involving affordable entry or membership fees (e.g. behavioural artefacts like tools, nests, or fossils in museums, or videos which may be sourced in libraries, such as natural history documentaries on DVD). Some public animal behaviour resources also store accessible behavioural artefacts, such as [Elephant Voices](https://www.elephantvoices.org/studies-a-projects/the-elephant-ethogram.html).
 
 ### Can I contribute?
 
