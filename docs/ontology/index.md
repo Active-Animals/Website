@@ -96,4 +96,6 @@ Feel free to look over our [EDITING](editing) guidelines.
 
 ***If you would like to collaborate, feel free to contact [Ditch Townsend](https://orcid.org/0000-0002-4277-2151)***
 
+-----
+
 [^1]: If you can't access this article, try searching for its title in Google Scholar to see if there are alternative sources.
