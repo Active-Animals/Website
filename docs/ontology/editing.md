@@ -183,7 +183,7 @@ This whole topic may be revisited in due course.
 
 An Instance is a unique example of a class being used. In our case, it will be a particular behavioural label as applied to a specific Observation (a photo, recording, video, or other artefact). This will have been archived in a permanent (if possible), specific, sign-posted (e.g. a URL), publicly accessible location outside our ontology (online if not a physical artefact, and not embedded in our ontology). While the item may be reused (e.g. for several different behaviours), the Instance is unique (being the only use of the particular behavioural label to the particular item).
 
-#### Preparing
+#### Preparation
 iNaturalist is designed to host hundreds of millions of observations. The [Active Animals (AA)](https://www.inaturalist.org/projects/active-animals-aa) project there can leverage its capabilities to catalogue large numbers of examples. Our ontology is not designed to duplicate that cataloguing function. The Instances we hope for in this ontology are of two kinds:
 
 ###### ILLUSTRATION
@@ -197,6 +197,15 @@ Where a class has no subclasses (i.e. it is a leaf or terminal class), a new Ins
 
 #### Individuals
 Use the Individual tab in WebProtégé, or the Individuals by Class view in any tab in WebProtégé, to add details of the Instance to the relevant class.
+
+### New Terms
+
+#### Preparing
+Your new class should represent a unique concept, not merely a unique label. Indeed, the label could be changed later, but the 'thing' that is the class should never change. (If it is superceded later, it may be [deprecated](#obsoletions), and a new class should be created, even if it has the same label, and a link can be made to the deprecated class to show it has been replaced.) 
+
+Search the ontology thoroughly for classes which may duplicate your concept, even if using different wording, and if they need modifying without changing the meaning, an edit there may be the best way forward. As long as there is still no exclusive definition, it may be possible to modify the class's concept (e.g. inclusive definitions might be changed, or subdivisions added).
+
+Except in justifiable cases (e.g. 'instinct' which has a long pedigree and is widely known), try not to create new classes just to suggest they are inactive. Our initiative is not trying to track every discredited idea that has ever been dreamt up about behaviour, but ideas which help explain where we are now, and how we got here.
 
 
 -----
