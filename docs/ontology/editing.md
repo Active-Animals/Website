@@ -207,5 +207,18 @@ Search the ontology thoroughly for classes which may duplicate your concept, eve
 
 Except in justifiable cases (e.g. 'instinct' which has a long pedigree and is widely known), try not to create new classes just to suggest they are inactive. Our initiative is not trying to track every discredited idea that has ever been dreamt up about behaviour, but ideas which help explain where we are now, and how we got here.
 
+#### Compounding
+An almost infinite array of compound terms is possible. We need to limit this:
+
+1) A behavioural episode observed may be broken up into multiple sub-behaviours, any of which can be created individually if they don't already exist (i.e. in the case of five sub-behaviours, there will be a maximum of five new terms added, rather than five factorial = 120 new terms).
+
+2) A commonly used compound term may be used along with links to its multiple parents, but there should be an rdfs:comment giving justification for using it.
+
+3) A conjoint term may be created where it is not simply additive, but synergistic, i.e. there is more to the compound behaviour than a simple addition of its components.
+
+4) Unless a single word captures the compound concept, place dashes-between-words in its label, to avoid confusion with the [binomial behavioural description](#constructing) and the 'inverted commas' used by WebProtégé to capture labels given more than one word by other ontologies.
+
+5) Unless the words are used in tandem in the source, they should be very close together in its text and there should be no doubt about them modifying the meaning of each other.
+
 
 -----
