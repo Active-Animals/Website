@@ -92,3 +92,30 @@ Annotations allow us to understand more about a given class. It may give informa
   - A number of Annotation Properties belong to external ontologies and have been retained for their utility in understanding them, but please don't use them for our behaviour terms.
   - Owl properties are built into Protege but should not be introduced to our ontology without management agreement.
     - owl:deprecated should only be used after extensive discussion.
+
+#### Definitions
+
+Sooner or later, every class should have a useful definition. The primordial structure contains many without definitions and these are a priority for completing. New terms from the Alpha stage onwards should generally be proposed alongside a well researched definition.
+
+For more detailed guidelines, many of which have informed ours below, see the paper on[Guidelines for writing definitions in ontologies](https://revista.ibict.br/ciinf/article/view/4015)
+
+##### Meaning
+
+Before starting, consider whether your new definition will change the meaning of the class's ground concept (note that the two are not always identical). This can be broadly assessed by considering the existing label, examples, comments, scope notes, properties, and any sources referred to already.
+
+Be more wary if there is already a textual definition and you wish to change it: consider whether your new definition will be inclusive of it (i.e. is your new definition more general, NOT more specific).
+
+Lastly, consider whether your definition will directly aid (or improve) the identification of the behaviour in question. If all these issues are answered positively, go ahead.
+
+NB: A very strict form of ontological reasoning will argue that there is no intrinsic difference between a concept and an accurate axiomatic definition. Therefore changing the concept will necessarily require changing a logical definition, which must necessarily require creation of a new term. However, humanly useable ontologies like ours do not fully axiomatise their 'ground concepts' in the form of logical definitions, and unless written strictly for machine learning, what we are doing is generally accepted.
+
+##### Constructing
+
+Ignoring the parts in (rounded brackets), use the construction:
+(X is a) Y [that / when / in which / wherein] Z. 
+
+Use the immediate binomial or trinomial for Y if it will aid understanding, e.g. (gathered-suspended is) an unsupported placement that...
+
+X is linguistically referred to as a definiendum. 
+Y is linguistically referred to as the genus.
+Z is linguistically referred to as the differentia(e); there may be more than one).
