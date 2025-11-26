@@ -15,7 +15,6 @@ Here we will outline our guidelines and rules for contributing to the ontology v
 ### Using WebProtégé
 
 #### Login
-
 1. You need your own account to use WebProtégé. You can Sign Up or Sign In [here](https://webprotege.stanford.edu/#login).
 2. Contact the AAO manager with your new username, to receive an invite to the project in WebProtégé. (In the Alpha phase, there may be restrictions even on the number of viewers or commenters, let alone editors. You may be asked to explain how you can contribute before being given an invitation. You may want to get this agreement before creating a WebProtégé account.)
 3. On your Projects list page, ensure that the 'Shared with Me' box is ticked. If you have been invited to the project, it should appear there as 'Active Animals ALPHA', although you may need to refresh the page, or even log back in if the page has expired.
@@ -24,7 +23,6 @@ Here we will outline our guidelines and rules for contributing to the ontology v
   - Unless you have the manager's permission, please don't download to work offline with another editor such as Protégé and then upload, as you will overwrite the whole project, losing other peoples' changes since your last download.
 
 #### Guides
-
 There is a basic [user guide](https://protegewiki.stanford.edu/wiki/WebProtegeUsersGuide) available at WebProtégé. Only one of its screencast links works (the first link below).
 
 Only two useful videos seem to be available to help. One is an early version [demo](http://www.youtube.com/watch?v=QvURiHVXnQQ), but it gives a feel for things, although the layout is outdated.
@@ -38,13 +36,11 @@ If you really want to delve into ontology engineering (including desktop Protég
 ### Always...
 
 #### Bites
-
 The history tab in WebProtégé will be easiest for future users to follow, if every edit is small, containing only a bitesize of material. Working in WebProtégé this will happen automatically. But if the manager approves of editing using an external editor such as Protégé, you will need to save and upload after every significant edit (i.e. not each word, but perhaps after each annotation has been added or edited).
 
 Only if a thematic edit is undertaken offline, multiple edits may be handled in a single save. In due course, we hope to have a GitHub pipeline set up to allow merging of branches (e.g. offline edits in Protégé) with the main file. Commits then will still need to be made very frequently. Over the horizon, we also hope that WebProtégé will be upgraded to allow merges with offline files without using a GitHub pipeline, or directly tied into it instead of being fully stand-alone as at present.
 
 #### Commits
-
 Every edit merged into WebProtégé is called a Commit. It may not be obvious what an edit is doing. Therefore WebProtégé automatically adds a title to each change you make which it merges in, focused on the activity undertaken.
 
 If approved by the manager to do, every Protégé upload will not only overwrite the WebProtégé base file (although it will leave Comments alone), but it will have an unhelpful generic Commit title. This needs to be changed to give a useful idea of what the edit has done, before finishing the upload. Make a quick reference to any prior discussion on the site about the topic. If there is no prior discussion about the change within the history, it may be better to have the discussion first, but if it can't be helped, then add some reasoning for the change to the Commit.
@@ -54,7 +50,6 @@ In due course, we hope to use a GitHub pipeline, or an upgraded version of WebPr
 NB: The primordial version of the ontology has been developed as a unitary draft, without edited Commits, but from the time joint editing started, the original author became subject to this expectation.
 
 #### Comments
-
 Your early forays into collaborating may be in the form of Comments only. When you have editing privileges, still consider whether proposing a planned change in the form of a Comment (a WebProtégé View which does not directly enter the ontology structure) might be the best way to start. Try to gain consent, if not consensus. Remember that your edits may be reverted if they appear controversial and have had no discussion. For new terms, make your comment against a parent class if you choose to wait before creating the new class. (Waiting may become the norm if new classes too often have to be reverted.)
 
 Meanwhile, bear in mind that you can view or hide resolved comment threads using the Filter symbol in the WebProtégé Comment View or Tab.
@@ -94,13 +89,11 @@ Annotations allow us to understand more about a given class. It may give informa
     - owl:deprecated should only be used after extensive discussion.
 
 #### Definitions
-
 Sooner or later, every class should have a useful definition. The primordial structure contains many without definitions and these are a priority for completing. New terms from the Alpha stage onwards should generally be proposed alongside a well researched definition.
 
 For more detailed guidelines, many of which have informed ours below, see the paper on[Guidelines for writing definitions in ontologies](https://revista.ibict.br/ciinf/article/view/4015)
 
 ##### Meaning
-
 Before starting, consider whether your new definition will change the meaning of the class's ground concept (note that the two are not always identical). This can be broadly assessed by considering the existing label, examples, comments, scope notes, properties, and any sources referred to already.
 
 Be more wary if there is already a textual definition and you wish to change it: consider whether your new definition will be inclusive of it (i.e. is your new definition more general, NOT more specific).
@@ -110,7 +103,6 @@ Lastly, consider whether your definition will directly aid (or improve) the iden
 NB: A very strict form of ontological reasoning will argue that there is no intrinsic difference between a concept and an accurate axiomatic definition. Therefore changing the concept will necessarily require changing a logical definition, which must necessarily require creation of a new term. However, humanly useable ontologies like ours do not fully axiomatise their 'ground concepts' in the form of logical definitions, and unless written strictly for machine learning, what we are doing is generally accepted.
 
 ##### Constructing
-
 Ignoring the parts in (rounded brackets), use the construction:
 (X is a) Y [that / when / in which / wherein] Z. 
 
@@ -119,3 +111,19 @@ Use the immediate binomial or trinomial for Y if it will aid understanding, e.g.
   - X is linguistically referred to as a definiendum. 
   - Y is linguistically referred to as the genus.
   - Z is linguistically referred to as the differentia(e); there may be more than one).
+
+##### Quoting
+Where a source is essentially being quoted for the definition, annotate with rdfs:isDefinedBy and hasDefinition. Sub-annotate hasDefinition with dc:source and skos:scopeNote (quoting the whole sentence or sentences from which the definition is drawn). There is no need to add dc:contributor as a sub-annotation to the definition, but by all means add it as a term annotation.
+
+Use [square brackets] to add the label for Y (the genus) if it is not in the quoted section of the source, but no quote marks.
+
+Limited edits may be needed, such as modifying word endings, or cutting and splicing very close elements contained within a single sentence (or possibly adjoining sentences), and preferably without reversing word order.
+
+A quoted definition may be made more parsimonious by dropping a superfluous component, but not if it simply generalises the definition (i.e. not if the dropped component would effectively create a sub-division). Word changes should also be avoided, particularly if the definition would be made more generic (e.g. by changing 'fish' to 'animal').
+
+Otherwise, even if the bulk of the definition comprises quotes, use hasDefinition, with dc:source and dc:contributor as sub-annotations (and avoid rdfs:isDefinedBy); see [Creating](#creating).
+
+##### Creating
+Annotate with hasDefinition, and sub-annotate that with dc:source and dc:contributor (even if you are the creator of the term). Every definition must be sourced, even if not quoted.
+
+-----
