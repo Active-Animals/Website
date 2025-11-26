@@ -21,7 +21,7 @@ Here we will outline our guidelines and rules for contributing to the ontology v
 3. On your Projects list page, ensure that the 'Shared with Me' box is ticked. If you have been invited to the project, it should appear there as 'Active Animals ALPHA', although you may need to refresh the page, or even log back in if the page has expired.
 4. Open the project by clicking the project's name, or find more opening options in the hamburger button.
   - You can download your own legacy copies as often as you like: the project has a CC0 license and the file can be read by any owl/rdf/xml viewer.
-  - Unless you have manager's permission, please don't download to work offline with another editor such as Protégé and then upload, as you will overwrite the whole project.
+  - Unless you have the manager's permission, please don't download to work offline with another editor such as Protégé and then upload, as you will overwrite the whole project, losing other peoples' changes since your last download.
 
 #### Guides
 
@@ -49,12 +49,12 @@ Every edit merged into WebProtégé is called a Commit. It may not be obvious wh
 
 If approved by the manager to do, every Protégé upload will not only overwrite the WebProtégé base file (although it will leave Comments alone), but it will have an unhelpful generic Commit title. This needs to be changed to give a useful idea of what the edit has done, before finishing the upload. Make a quick reference to any prior discussion on the site about the topic. If there is no prior discussion about the change within the history, it may be better to have the discussion first, but if it can't be helped, then add some reasoning for the change to the Commit.
 
+In due course, we hope to use a GitHub pipeline, or an upgraded version of WebProtégé, for Commits. This will prevent merges into the main file from happening without anyone consenting.
+
 NB: The primordial version of the ontology has been developed as a unitary draft, without edited Commits, but from the time joint editing started, the original author became subject to this expectation.
 
 #### Comments
 
 Your early forays into collaborating may be in the form of Comments only. When you have editing privileges, still consider whether proposing a planned change in the form of a Comment (a WebProtégé View which does not directly enter the ontology structure) might be the best way to start. Try to gain consent, if not consensus. Remember that your edits may be reverted if they appear controversial and have had no discussion. For new terms, make your comment against a parent class if you choose to wait before creating the new class. (Waiting may become the norm if new classes too often have to be reverted.)
-
-In due course, we hope to use a GitHub pipeline, or an upgraded version of WebProtégé, for Commits. This will prevent merges into the main file from happening without anyone consenting.
 
 Meanwhile, bear in mind that you can view or hide resolved comment threads using the Filter symbol in the WebProtégé Comment View or Tab.
