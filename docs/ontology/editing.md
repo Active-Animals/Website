@@ -251,4 +251,10 @@ This section explains which sources or contributors should have priority in our 
 2) The oldest such source to use the term should be referenced.
 3) The oldest source need not incorporate every facet of the topic, so long as it does not lie outside, or contradict, a class's definition.
 
+#### Label & Synonyms
+Ideally, given our Principles, we want to list the earliest source which references any label or synonym: 
+1) It should if possible contain the stem and not just the root (e.g. symmetric, symmetrical, and asymmetric share a root - symmetry - but have two different stems - symmetric and asymmetric), although some variance may be acceptable.
+2) Compound labels should apply the same rule to each word individually, but compound synonyms should apply the rule to the whole.
+3) No concept may be changed by changing a label, although a completely different word or word form may be more appropriate to an existing one. (A new concept and possible deprecation of the old one may be needed instead.)
+
 -----
