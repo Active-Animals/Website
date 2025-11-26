@@ -183,4 +183,13 @@ This whole topic may be revisited in due course.
 
 An Instance is a unique example of a class being used. In our case, it will be a particular behavioural label as applied to a specific Observation (a photo, recording, video, or other artefact). This will have been archived in a permanent (if possible), specific, sign-posted (e.g. a URL), publicly accessible location outside our ontology (online if not a physical artefact, and not embedded in our ontology). While the item may be reused (e.g. for several different behaviours), the Instance is unique (being the only use of the particular behavioural label to the particular item).
 
+#### Preparing
+iNaturalist is designed to host hundreds of millions of observations. The [Active Animals (AA)](https://www.inaturalist.org/projects/active-animals-aa) project there can leverage its capabilities to catalogue large numbers of examples. Our ontology is not designed to duplicate that cataloguing function. The Instances we hope for in this ontology are of two kinds:
+
+###### ILLUSTRATION
+Links to scientifically robust external resources which illustrate a behaviour, to aid in understanding it, and to aid in identifying the behaviour in one of our field observations. These links should be provided judiciously, and only multiplied in a specific class where they extend understanding beyond previous Instances; they should not simply be added on a taxonomic basis, although taxonomy may be an underlying reason to multiply illustrations.
+
+###### TYPE
+Type examples should come from within the iNaturalist catalogue, or other hobbyist repositories (i.e. not scientific sources). They should be offered or agreed to by their originator. Once added, they should not be changed without a discussion.
+
 -----
