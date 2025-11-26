@@ -142,4 +142,9 @@ The ontology is currently moving towards the goal of single parenthood, with sub
 
 NB: Some judgement may be needed about how far back roots should be sought (e.g. are feign and feint from separate French words or the same Latin word), but try to avoid a debate if possible.
 
+##### Para-synonymy
+Using a synonym in a simplistic definition is tempting and perhaps unavoidable at times. But it is too close to being tautology for the long term, and should be avoided in the first place if possible. (The definition is ideally some kind of expanded explanation.)
+
+If needed, change the synonym type to hasRelatedSynonym as a workaround which will also highlight its deliberate use, but don't just delete the synonym in order to reintroduce it to the definition.
+
 -----
