@@ -242,4 +242,13 @@ Try to select a word form for the new term, such that it can form a meaningful b
 #### Sourcing
 The term itself should be sourced if possible (although a slightly different word form is okay). A sub-annotation should be added with a dc:source. If the term can only (but easily) be inferred from a source, add an rdfs:comment as a sub-annotation.
 
+### Precedence
+
+This section explains which sources or contributors should have priority in our ontology.
+
+#### Principles
+1) Any source must be legally, publicly accessible, even if the DOI or ISBN or catalogue number does not link directly to such a source. (Digital media should be available free and online via links from within a Google Scholar, or Internet Archive Scholar, or JSTOR free personal account search.)
+2) The oldest such source to use the term should be referenced.
+3) The oldest source need not incorporate every facet of the topic, so long as it does not lie outside, or contradict, a class's definition.
+
 -----
