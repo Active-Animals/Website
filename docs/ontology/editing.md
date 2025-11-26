@@ -58,3 +58,28 @@ NB: The primordial version of the ontology has been developed as a unitary draft
 Your early forays into collaborating may be in the form of Comments only. When you have editing privileges, still consider whether proposing a planned change in the form of a Comment (a WebProtégé View which does not directly enter the ontology structure) might be the best way to start. Try to gain consent, if not consensus. Remember that your edits may be reverted if they appear controversial and have had no discussion. For new terms, make your comment against a parent class if you choose to wait before creating the new class. (Waiting may become the norm if new classes too often have to be reverted.)
 
 Meanwhile, bear in mind that you can view or hide resolved comment threads using the Filter symbol in the WebProtégé Comment View or Tab.
+
+### Annotating
+
+Annotations allow us to understand more about a given class. It may give information about by whom and when it was created, its synonyms, or comments about it, etc.
+
+##### DO Use
+###### BEHAVIOURS
+  - Automatically introduced annotations for new terms are:
+    - created_by
+    - creation_date
+  - Required annotations for all terms are:
+    - rdfs:label
+    - dc:source
+  - As required annotations are:
+    - hasBroadSynonym
+    - hasDefinition
+    - hasExactSynonym
+    - hasNarrowSynonym
+    - hasRelatedSynonym
+    - rdfs:comment (for additional, useful information)
+    - rdfs:isDefinedBy (where a definition is substantially quoted even if not originally intended as such)
+    - rdfs:seeAlso (where another source gives an illuminating perspective but is not necessarily synonymous)
+    - skos:example (for valuable illustrations)
+    - skos:scopeNote (for an idea about the content or limits of a concept, usually where the definition is not yet finally composed)
+
