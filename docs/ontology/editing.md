@@ -257,4 +257,13 @@ Ideally, given our Principles, we want to list the earliest source which referen
 2) Compound labels should apply the same rule to each word individually, but compound synonyms should apply the rule to the whole.
 3) No concept may be changed by changing a label, although a completely different word or word form may be more appropriate to an existing one. (A new concept and possible deprecation of the old one may be needed instead.)
 
+#### Definition
+The key for a definition is not so much its precedence, as its accuracy, inclusivity, and utility.
+
+#### Creation
+Editors who create new terms using the WebProtégé portal will automatically have the date and the creator added, and also an ID number which will remain exclusive to that class despite future edits.
+
+#### Contribution
+All contributors are encouraged to flag their own inputs with annotation property dc:contributor, preferably using an [ORCID](https://orcid.org) ID or something similar, although your name is acceptable (but not just initials or username).
+
 -----
