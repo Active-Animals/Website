@@ -179,4 +179,8 @@ Don't simply hijack a label, since the term history could become incomprehensibl
 
 This whole topic may be revisited in due course.
 
+### Instances
+
+An Instance is a unique example of a class being used. In our case, it will be a particular behavioural label as applied to a specific Observation (a photo, recording, video, or other artefact). This will have been archived in a permanent (if possible), specific, sign-posted (e.g. a URL), publicly accessible location outside our ontology (online if not a physical artefact, and not embedded in our ontology). While the item may be reused (e.g. for several different behaviours), the Instance is unique (being the only use of the particular behavioural label to the particular item).
+
 -----
