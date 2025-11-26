@@ -4,17 +4,15 @@ Welcome to the Active Animals Ontology.
 
 ## Introduction
 
-[Ethology](https://doi.org/10.3389/fetho.2023.1270913) is the study of proximate causes of behaviour (mechanisms and development), and their ultimate roots (evolution and function). Behaviour classification is generally [a typological ordering system](https://doi.org/10.1046/j.1439-0469.2002.00211.x)[^1]. In this project, we are attempting to tease out some order from the, "almost chaotic diversity,"  of behaviour, by grouping its mechanisms: the more observable component of ethology.
+[Ethology](https://doi.org/10.3389/fetho.2023.1270913) is the study of proximate causes of behaviour (mechanisms and development), and their ultimate roots (evolution and function). Behaviour classification is generally [a typological ordering system](https://doi.org/10.1046/j.1439-0469.2002.00211.x)[^1]. In this project, we are attempting to tease out some order from the, "almost chaotic diversity,"  of behaviour, by grouping its mechanisms (the more observable component of ethology, like swimming) and their overlap with function (the tip of an iceberg, where context allows reasonable inferences, such as escaping).
 
-Having undergone a closed, primordial development phase, the project is now open for Alpha testing and redesign. Those interested in animal behaviour, who are willing to contribute directly, are invited to collaborate.
+Having undergone a closed, primordial development phase, the AAO project is now open for Alpha testing and redesign. Those interested in animal behaviour, who are willing to contribute directly, are invited to collaborate. [Sister projects](#what-about-observations-and-examples) are also being developed to test the use of labelling developed here, for annotating searchable repositories of animal behaviour records, most notably at [iNaturalist](https://www.inaturalist.org). Collaborators are also being sought, who are able to test and extend these sister projects to their own records in various repositories, such as [xeno-canto](https://xeno-canto.org).
 
-Sister projects are also being developed to test the use of labelling developed here, for annotating searchable repositories of animal behaviour records, most notably at [iNaturalist](https://www.inaturalist.org). Collaborators are also being sought, who are able to test and extend these sister projects to their own records in various repositories, such as [xeno-canto](https://xeno-canto.org).
-
-***If you would like to collaborate, feel free to contact [Ditch Townsend](https://orcid.org/0000-0002-4277-2151)***
+***If you would like to collaborate, check out the section: [Can I contribute?](#can-i-contribute)***
 
 ### Who is this for?
 
-This tool is designed by and for amateur animal behaviour watchers. It provides us with a system for classifying what could potentially be seen, heard, felt, or otherwise tangibly discerned by us. It can also help us to share knowledge with each other. For some of us, it could extend the scope of natural observation beyond taxonomy. For others, it may replace taxonomy as our root observational paradigm, with taxonomy having the supplementary role. In other words, 'collecting' behaviours.
+This ontology is a tool designed and maintained by and for amateur animal behaviour watchers. It provides us with a system for classifying what could potentially be seen, heard, felt, or otherwise tangibly discerned by us. It can also help us to share knowledge with each other. For some of us, it could extend the scope of natural observation beyond taxonomy. For others, it may even replace taxonomy as our root observational paradigm, with taxonomy having the supplementary role. In other words, 'collecting' behaviours.
 
 A secondary use case is that of professional researchers into animal behaviour. Even if this ontology is not always consistent with the most current academic thinking, it can be used to build bridges between different interpretations or labels, as well as between 'citizens' and 'scientists'. If behaviour watchers use the labels to annotate publicly accessible instances of behaviour, it may assist professionals in searching for examples of unusual behaviour, or extensions of known behaviour to new animal taxa.
 
@@ -98,6 +96,25 @@ The [Active Animals (AA)](https://www.inaturalist.org/projects/active-animals-aa
 Restricted access resources are unlikely to be referenced by the ontology, except in justifiable cases involving affordable entry or membership fees (e.g. behavioural artefacts like tools, nests, or fossils in museums, or videos which may be sourced in libraries, such as natural history documentaries on DVD). Some public animal behaviour resources also store accessible behavioural artefacts, such as Elephant Voices.
 
 ### Can I contribute?
+
+We very much hope so!
+
+This ontology aims to be participatory, transparent and accountable. In practice, this means first of all that a wide range of people can freely use, contribute ideas, edit, and even manage the ontology. Secondly, we use openly accessible software including the free WebProtégé platform. Thirdly, visible comments and an accessible change history allow users to review changes to the ontology.
+
+Collaborators are expected to make active contributions, either in the ontology's engineering/software support, or in its database/editing curation, or stress-testing against their own observations. Consultants who only offer advice could play a key role, and will be directly recruited by a manager. Impromptu consultants will be thanked but invited to directly implement their own advice.
+
+If advice about an issue is solicited by an active collaborator, advisory comments (without further commitment) are welcome. This may even be preferred to diving straight into an edit, particularly for big changes. Big changes may be reverted by a manager if inadequate prior community discussion has occured.
+
+During the Alpha development phase, there will be a single manager (Ditch Townsend). Collaborators may be invited by a manager, or recommended to a manager by an editor. Known collaborators may be invited by a manager to be editors. Unknown collaborators may be invited to be commenters until they become sufficiently known to be invited to be an editor. The collaboration team will be limited in size.
+
+During the Beta development phase, a significant number of positions will be available for new editors. Also for more commenters, provided they test the ontology against their own observations. During this phase, a mutually acceptable participatory organisational structure will be set up and tested, but will remain advisory to the manager, who will arrange for a deputy to also have management privileges.
+
+Only in the open, final phase will the ontology be fully open. This stage will also mark an accountable and participatory organisation and management structure, including a mechanism for changing leadership.
+
+Feel free to look over our [Editing](ontology/editing) guidelines.
+
+
+***If you would like to collaborate, feel free to contact [Ditch Townsend](https://orcid.org/0000-0002-4277-2151)***
 
 ### How did the project start?
 
