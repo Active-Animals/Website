@@ -210,15 +210,11 @@ Except in justifiable cases (e.g. 'instinct' which has a long pedigree and is wi
 #### Compounding
 An almost infinite array of compound terms is possible. We need to limit this:
 
-1) A behavioural episode observed may be broken up into multiple sub-behaviours, any of which can be created individually if they don't already exist (i.e. in the case of five sub-behaviours, there will be a maximum of five new terms added, rather than five factorial = 120 new terms).
-
-2) A commonly used compound term may be used along with links to its multiple parents, but there should be an rdfs:comment giving justification for using it.
-
-3) A conjoint term may be created where it is not simply additive, but synergistic, i.e. there is more to the compound behaviour than a simple addition of its components.
-
-4) Unless a single word captures the compound concept, place dashes-between-words in its label, to avoid confusion with the [binomial behavioural description](#constructing) and the 'inverted commas' used by WebProtégé to capture labels given more than one word by other ontologies.
-
-5) Unless the words are used in tandem in the source, they should be very close together in its text and there should be no doubt about them modifying the meaning of each other.
+  1. A behavioural episode observed may be broken up into multiple sub-behaviours, any of which can be created individually if they don't already exist (i.e. in the case of five sub-behaviours, there will be a maximum of five new terms added, rather than five factorial = 120 new terms).
+  2. A commonly used compound term may be used along with links to its multiple parents, but there should be an rdfs:comment giving justification for using it.
+  3. A conjoint term may be created where it is not simply additive, but synergistic, i.e. there is more to the compound behaviour than a simple addition of its components.
+  4. Unless a single word captures the compound concept, place dashes-between-words in its label, to avoid confusion with the [binomial behavioural description](#constructing) and the 'inverted commas' used by WebProtégé to capture labels given more than one word by other ontologies.
+  5. Unless the words are used in tandem in the source, they should be very close together in its text and there should be no doubt about them modifying the meaning of each other.
 
 #### Starting
 If you want to create new terms, ask the manager to allocate you a batch of ID codes (these are then applied automatically).
@@ -247,15 +243,16 @@ The term itself should be sourced if possible (although a slightly different wor
 This section explains which sources or contributors should have priority in our ontology.
 
 #### Principles
-1) Any source must be legally, publicly accessible, even if the DOI or ISBN or catalogue number does not link directly to such a source. (Digital media should be available free and online via links from within a Google Scholar, or Internet Archive Scholar, or JSTOR free personal account search.)
-2) The oldest such source to use the term should be referenced.
-3) The oldest source need not incorporate every facet of the topic, so long as it does not lie outside, or contradict, a class's definition.
+1. Any source must be legally, publicly accessible, even if the DOI or ISBN or catalogue number does not link directly to such a source. (Digital media should be available free and online via links from within a Google Scholar, or Internet Archive Scholar, or JSTOR free personal account search.)
+2. The oldest such source to use the term should be referenced.
+3. The oldest source need not incorporate every facet of the topic, so long as it does not lie outside, or contradict, a class's definition.
 
 #### Label & Synonyms
 Ideally, given our Principles, we want to list the earliest source which references any label or synonym:
-1) It should if possible contain the stem and not just the root (e.g. symmetric, symmetrical, and asymmetric share a root - symmetry - but have two different stems - symmetric and asymmetric), although some variance may be acceptable.
-2) Compound labels should apply the same rule to each word individually, but compound synonyms should apply the rule to the whole.
-3) No concept may be changed by changing a label, although a completely different word or word form may be more appropriate to an existing one. (A new concept and possible deprecation of the old one may be needed instead.)
+
+1. It should if possible contain the stem and not just the root (e.g. symmetric, symmetrical, and asymmetric share a root - symmetry - but have two different stems - symmetric and asymmetric), although some variance may be acceptable.
+2. Compound labels should apply the same rule to each word individually, but compound synonyms should apply the rule to the whole.
+3. No concept may be changed by changing a label, although a completely different word or word form may be more appropriate to an existing one. (A new concept and possible deprecation of the old one may be needed instead.)
 
 #### Definition
 The key for a definition is not so much its precedence, as its accuracy, inclusivity, and utility.
