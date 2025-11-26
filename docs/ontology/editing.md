@@ -263,4 +263,11 @@ Editors who create new terms using the WebProtégé portal will automatically ha
 #### Contribution
 All contributors are encouraged to flag their own inputs with annotation property dc:contributor, preferably using an [ORCID](https://orcid.org) ID or something similar, although your name is acceptable (but not just initials or username).
 
+#### Examples
+The number of examples should be very constricted, preferably to one overall, but up to one each of the following criteria if necessary. Please don't delete examples or add a fourth (or more) without a discussion in the relevant page's WebProtege comment tab. It should balance:
+
+1. Primordial publication
+2. Evocative description
+3. Generalisability
+
 -----
