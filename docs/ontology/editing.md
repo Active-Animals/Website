@@ -35,12 +35,12 @@ If you really want to delve into ontology engineering (including desktop Protég
 
 ### Always...
 
-#### Bites
+#### Small bites
 The history tab in WebProtégé will be easiest for future users to follow, if every edit is small, containing only a bitesize of material. Working in WebProtégé this will happen automatically. But if the manager approves of editing using an external editor such as Protégé, you will need to save and upload after every significant edit (i.e. not each word, but perhaps after each annotation has been added or edited).
 
 Only if a thematic edit is undertaken offline, multiple edits may be handled in a single save. In due course, we hope to have a GitHub pipeline set up to allow merging of branches (e.g. offline edits in Protégé) with the main file. Commits then will still need to be made very frequently. Over the horizon, we also hope that WebProtégé will be upgraded to allow merges with offline files without using a GitHub pipeline, or directly tied into it instead of being fully stand-alone as at present.
 
-#### Commits
+#### Frequent Commits
 Every edit merged into WebProtégé is called a Commit. It may not be obvious what an edit is doing. Therefore WebProtégé automatically adds a title to each change you make which it merges in, focused on the activity undertaken.
 
 If approved by the manager to do, every Protégé upload will not only overwrite the WebProtégé base file (although it will leave Comments alone), but it will have an unhelpful generic Commit title. This needs to be changed to give a useful idea of what the edit has done, before finishing the upload. Make a quick reference to any prior discussion on the site about the topic. If there is no prior discussion about the change within the history, it may be better to have the discussion first, but if it can't be helped, then add some reasoning for the change to the Commit.
@@ -49,17 +49,17 @@ In due course, we hope to use a GitHub pipeline, or an upgraded version of WebPr
 
 NB: The primordial version of the ontology has been developed as a unitary draft, without edited Commits, but from the time joint editing started, the original author became subject to this expectation.
 
-#### Comments
+#### Inclusive Comments
 Your early forays into collaborating may be in the form of Comments only. When you have editing privileges, still consider whether proposing a planned change in the form of a Comment (a WebProtégé View which does not directly enter the ontology structure) might be the best way to start. Try to gain consent, if not consensus. Remember that your edits may be reverted if they appear controversial and have had no discussion. For new terms, make your comment against a parent class if you choose to wait before creating the new class. (Waiting may become the norm if new classes too often have to be reverted.)
 
 Meanwhile, bear in mind that you can view or hide resolved comment threads using the Filter symbol in the WebProtégé Comment View or Tab.
 
-### Annotating
+### Annotations
 
 Annotations allow us to understand more about a given class. It may give information about by whom and when it was created, its synonyms, or comments about it, etc.
 
 #### DO Use
-##### BEHAVIOURS
+##### For Behaviours
   - Automatically introduced annotations for new terms are:
     - created_by
     - creation_date
@@ -78,7 +78,7 @@ Annotations allow us to understand more about a given class. It may give informa
     - skos:example (for valuable illustrations)
     - skos:scopeNote (for an idea about the content or limits of a concept, usually where the definition is not yet finally composed)
 
-##### NON-BEHAVIOURS
+##### For Non-Behaviours
   -  Required annotations for new ontology sources (but requiring management agreement) are:
      - dcterms:license
   - Imported terms often come with an array of annotation 'baggage'. Much of this can be stripped away to reduce confusion for future local users. 
@@ -89,6 +89,7 @@ Annotations allow us to understand more about a given class. It may give informa
     - owl:deprecated should only be used after extensive discussion.
 
 ### Definitions
+
 Sooner or later, every class should have a useful definition. The primordial structure contains many without definitions and these are a priority for completing. New terms from the Alpha stage onwards should generally be proposed alongside a well researched definition.
 
 For more detailed guidelines, many of which have informed ours below, see the paper on[Guidelines for writing definitions in ontologies](https://revista.ibict.br/ciinf/article/view/4015)
@@ -142,10 +143,28 @@ All parents must be referred to in the definition. It may be most appropriate to
 
 The ontology is currently moving towards the goal of single parenthood, with subsidiary parthood. Older terms are most likely to remain unamended for some time, but new terms will need to strongly justify multi-parenting.
 
-
 #### Para-synonymy
 Using a synonym in a simplistic definition is tempting and perhaps unavoidable at times. But it is too close to being tautology for the long term, and should be avoided in the first place if possible. (The definition is ideally some kind of expanded explanation.)
 
 If needed, change the synonym type to hasRelatedSynonym as a workaround which will also highlight its deliberate use, but don't just delete the synonym in order to reintroduce it to the definition.
+
+### Synonyms
+
+Synonyms should be sourced and dated by year. They can have modified suffixes to match the class label in question.
+
+Choose the annotation property which is most suitable, when labelling synonyms. Remember that any one may in future be challenged, so consider a justifying comment or quote:
+  - **hasExactSynonym** may be asserted by a source, or linguistically
+  - **hasBroadSynonym** is inclusive of, but not limited to, the main label (consider if it should be a superclass instead)
+  - **hasNarrowSynonym** excludes aspects of the main label, but is fully enclosed by it (consider if it should be a subclass instead)
+  - **hasRelatedSynonym** should be used with great care, to ensure it is not in fact one of the other forms. It may be worth using if you have used much licence to infer a synonym from within a source in a way that you expect other collaborators could question (consider too whether you have actually stumbled on a new term needing creating); see also [para-synonymy](#para-synonymy)
+
+If you wish to promote a synonym to the main label, justify this and try to engage in discussion before implementing any change; remember also to relegate the label to a synonym.
+
+The same word may have different meanings in different sources. The following method should enable a string search to pull out each alternate meaning:
+  1. Where it is used as a synonym with a different meaning to its use elsewhere, add the current term's ID to the synonym string as a suffix after a hyphen, and repeat for each different synonym meaning (e.g. if Label A applies to a primary term, synonym A-AAO000000x applies to one alternative meaning, synonym A-AAO000000y applies to another alternative meaning, etc).
+  2. Do not add the ID suffix to the label bearing the primary meaning of the string, unless it is demoted later to a synonym (and remove the suffix from any synonym promoted to primary label use).
+  3. It is possible that a synonym string is used in multiple ways (each with its own ID suffix) without being used as a primary label anywhere.
+  4. It is possible that a synonym string is used in multiple terms but only one way (without the need for an ID suffix), without being used as a primary label anywhere.
+  5. Where two synonymised occurrences of a label have the same meaning but different to a primary label usage, select one ID suffix to use for both. This could be one of the two occurrences, or in the case of a shared parent (most likely to happen with a Broad synonym) it could be the ID of the shared parent.
 
 -----
