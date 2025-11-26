@@ -239,4 +239,7 @@ If the label must duplicate a non-behaviour branch label, here is a trick learne
 #### Word form
 Try to select a word form for the new term, such that it can form a meaningful binomial as both parent and child, when spoken in the word order subclass > superclass, with the option to complete the phrase with a high level term such as 'behaviour' (e.g. singing vocal behaviour, vocal acoustic behaviour, acoustic signaling).
 
+#### Sourcing
+The term itself should be sourced if possible (although a slightly different word form is okay). A sub-annotation should be added with a dc:source. If the term can only (but easily) be inferred from a source, add an rdfs:comment as a sub-annotation.
+
 -----
