@@ -116,6 +116,6 @@ Ignoring the parts in (rounded brackets), use the construction:
 
 Use the immediate binomial or trinomial for Y if it will aid understanding, e.g. (gathered-suspended is) an unsupported placement that...
 
-X is linguistically referred to as a definiendum. 
-Y is linguistically referred to as the genus.
-Z is linguistically referred to as the differentia(e); there may be more than one).
+  - X is linguistically referred to as a definiendum. 
+  - Y is linguistically referred to as the genus.
+  - Z is linguistically referred to as the differentia(e); there may be more than one).
