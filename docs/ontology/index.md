@@ -2,7 +2,7 @@
 
 Welcome! We're all about classifying animal behaviour and cataloguing observations.
 
-## Introduction
+## INTRODUCTION
 
 The study of the mechanisms, development, evolution and function of behaviour is called [Ethology](https://doi.org/10.3389/fetho.2023.1270913). Behaviour classification is generally [a typological ordering system](https://doi.org/10.1046/j.1439-0469.2002.00211.x)[^1]. In this project, we are attempting to tease out some order from the, "almost chaotic diversity,"  of behaviour, by classifying its mechanisms (the more observable component of ethology, such as *swimming*) and their functional-context (the tip of the function iceberg wherein context may allow reasonable inferences, such as *escaping*).
 
