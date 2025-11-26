@@ -167,7 +167,7 @@ The same word may have different meanings in different sources. The following me
   4. It is possible that a synonym string is used in multiple terms but only one way (without the need for an ID suffix), without being used as a primary label anywhere.
   5. Where two synonymised occurrences of a label have the same meaning but different to a primary label usage, select one ID suffix to use for both. This could be one of the two occurrences, or in the case of a shared parent (most likely to happen with a Broad synonym) it could be the ID of the shared parent.
 
-### Obsoletion
+### Obsoletions
 
 It is not our role to judge the validity of an assertion. Before considering incompatibility, be sure you are not better served with a [Synonym](#synonyms).
 
