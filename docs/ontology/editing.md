@@ -8,7 +8,7 @@ On our [INTRODUCTION](index) page, you can find out more about our use case, mod
 
 Here we will outline our guidelines and rules for contributing to the ontology via the collaborative, online, ontology editor: WebProtégé.
 
-*See the footnote if you want to suggest edits to this website*[^1]
+*See the footnote if you want to suggest edits to this website.*[^1]
 
 [^1]: Feel free to click the 'View on GitHub' button, then click 'Issues' in the top bar, and create a new one by clicking 'New issue'. Explain your suggestion and we will look into it. Of course, if you are familiar with GitHub, you can create a branch, make and commit your edits, and create a pull request. If it is more than a simple edit though, we suggest you tie it to an issue so some discussion can be had in advance of the pull request.
 
