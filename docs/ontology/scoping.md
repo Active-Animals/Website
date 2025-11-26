@@ -41,4 +41,6 @@ So yet another new chapter was opened in early 2024. Using open source data mapp
 
 Drawing some inspiration from Bill Eshmeyer (see [Eschmeyer's Catalog of Fishes](https://www.calacademy.org/scientists/projects/catalog-of-fishes)), it is hoped that unless others can pick up and run with the ball in a timely and useful way, this ontology can gradually become a core resource for all kinds of scientist, 'citizen' or otherwise. Using only openly accessible sources, we hope one day to reference all animal behaviours, their label and synonym origins, definitions and earliest uses, and their hierarchical relations.
 
+-----
+
 [^1]: If you can't access this article, try searching for its title in Google Scholar to see if there are alternative sources.
