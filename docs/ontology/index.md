@@ -6,7 +6,7 @@ Welcome! We're all about classifying animal behaviour and cataloguing observatio
 
 The study of the mechanisms, development, evolution and function of behaviour is called [Ethology](https://doi.org/10.3389/fetho.2023.1270913). Behaviour classification is generally [a typological ordering system](https://doi.org/10.1046/j.1439-0469.2002.00211.x)[^1]. In this project, we are attempting to tease out some order from the, "almost chaotic diversity,"  of behaviour, by classifying its mechanisms (the more observable component of ethology, such as *swimming*) and their functional-context (the tip of the function iceberg wherein context may allow reasonable inferences, such as *escaping*).
 
-On our [Scoping](scoping) page, you can find out more about our situation assessment, including the need for, and history of the project.
+On our [SCOPING](scoping) page, you can find out more about our situation assessment, including the need for, and history of the project.
 
 Having undergone a closed, primordial development phase, the AAO project is now open for Alpha testing and redesign. Those interested in animal behaviour, and who are willing to contribute directly, are invited to collaborate. [Sister projects](#what-about-observations-and-examples) are also being developed to test the use of labelling developed here, for annotating searchable repositories of animal behaviour records, most notably at [iNaturalist](https://www.inaturalist.org). Collaborators are also being sought, who are able to test and extend these sister projects to their own records in various repositories, such as [xeno-canto](https://xeno-canto.org).
 
@@ -54,7 +54,7 @@ It might also be, that you want to add one or more non-behaviour (descriptive) c
 
 Only in exceptional cases do we label composite behaviours (usually if they have a unique term, or if they are synergistic and not merely additive). In other words, if you wish to label a co-occurent set of behaviours, label each one of them. The same goes for non-behaviours.
 
-Remember that much is missing from the ontology and you may need to offer edits to existing entries, or new terms. If you want to improve the ontology, make sure you understand the section, [Can I contribute?](#can-i-contribute) Then tuck into the page about [Editing](ontology/editing).
+Remember that much is missing from the ontology and you may need to offer edits to existing entries, or new terms. If you want to improve the ontology, make sure you understand the section, [Can I contribute?](#can-i-contribute) Then tuck into the page about [EDITING](ontology/editing).
 
 NB: You may offer edits to this Introduction or the Editing page too, although anything but typos in the Editing page may need some debate before being adopted by us all.
 
@@ -92,7 +92,7 @@ During the Beta development phase, a significant number of positions will be ava
 
 Only in the open, final phase will the ontology be fully open. This stage will also mark an accountable and participatory organisation and management structure, including a mechanism for changing leadership.
 
-Feel free to look over our [Editing](ontology/editing) guidelines.
+Feel free to look over our [EDITING](ontology/editing) guidelines.
 
 ***If you would like to collaborate, feel free to contact [Ditch Townsend](https://orcid.org/0000-0002-4277-2151)***
 
