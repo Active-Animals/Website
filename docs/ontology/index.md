@@ -1,8 +1,6 @@
 # Active Animals Ontology (AAO)
 
-Welcome!
-
-We're all about classifying animal behaviour and cataloguing observations.
+Welcome! We're all about classifying animal behaviour and cataloguing observations.
 
 ## Introduction
 
