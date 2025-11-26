@@ -135,12 +135,13 @@ To expand the definition beyond its essential core, either use additional text f
 ##### Tautology
 Do not use the term label or its root within its own definition, unless in a clarifiying sentence after the first full-stop. An exception may occur where the label is apparently partly composed from its actual or potential ontological parents, parts, participants, or attributes (e.g. terrestrial-lateral-undulating). Another is where the label is one of a set of invariant and exclusive subdivisions (e.g. spawning may only involve eggs or sperm). In any case, remain open to adopting alternative terminology.
 
+NB: Some judgement may be needed about how far back roots should be sought (e.g. are feign and feint from separate French words or the same Latin word), but try to avoid a debate if possible.
+
 ##### Multi-parenting
 All parents must be referred to in the definition. It may be most appropriate to select one as genus and use the others as differentia to form a composite definition. In this case, do not offer a dc:source, but use hasDefinition with dc:contributor embedded, and rdfs:comment embedded noting that the definition is a composite.
 
 The ontology is currently moving towards the goal of single parenthood, with subsidiary parthood. Older terms are most likely to remain unamended for some time, but new terms will need to strongly justify multi-parenting.
 
-NB: Some judgement may be needed about how far back roots should be sought (e.g. are feign and feint from separate French words or the same Latin word), but try to avoid a debate if possible.
 
 ##### Para-synonymy
 Using a synonym in a simplistic definition is tempting and perhaps unavoidable at times. But it is too close to being tautology for the long term, and should be avoided in the first place if possible. (The definition is ideally some kind of expanded explanation.)
