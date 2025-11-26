@@ -21,7 +21,7 @@ In 2011, a comprehensive, new ontology was launched. Called the [Neuro-Behaviour
 
 The AAO takes in a large scope, but with a more focused use case, not dependant on funding, and able to move forward without so many restrictions. It will undoubtedly have its gaps and failings. But unless it is replaced by something more water tight, it should provide at least a raft for those of us otherwise left to flounder.
 
-By taking a public domain approach, we hope it will also provide leads to promising new avenues of ethological research. We hope this can then lead to highly collaborative forms of Citizan Science.
+By taking a public domain approach, we hope it will also provide leads to promising new avenues of ethological research. We hope this can then lead to highly collaborative forms of citizan science.
 
 And as an incidental, we want to enable the principles of [FAIR data](https://en.wikipedia.org/wiki/FAIR_data) (findability, accessibility, interoperability, reusability).
 
@@ -37,8 +37,8 @@ No sign of the promised ZBC 2.0, let alone an ethogram, was forthcoming ten year
 
 From this point, a year-long attempt was made to ressurect the NBO, trying to tackle its multiple methodological and content shortcomings. Sadly, no significant progress was made to achieve consensus in the scientific community for its revamp, although a handful of edits were made, and new structural models described, to illustrate possible ways forward. Efforts ceased in February 2024 (see [Issue 127](https://github.com/obo-behavior/behavior-ontology/issues/127#issuecomment-1925736023)). (By 25th November 2025, nothing more had been done either to edit or end it.)
 
-So yet another new chapter was opened in early 2024. Using open source data mapping and ontology software ([Gephi](https://gephi.org) and Protégé), a fresh start was made to create a comprehensive, open, participatory, citizen science-led ontology of animal behaviour. Just under a year later, working alone in his spare time, Ditch was ready to open up a collaborative improvement and implementation process, to build on a starting line-up of 361 behaviours and 374 non-behaviours.
+So yet another new chapter was opened in early 2024. Using open source data mapping and ontology software ([Gephi](https://gephi.org) and [Protégé](https://protege.stanford.edu)), a fresh start was made to create a comprehensive, open, participatory, citizen science-led ontology of animal behaviour. Just under a year later, working alone in his spare time, Ditch was ready to open up a collaborative improvement and implementation process, to build on a starting line-up of 361 behaviours and 374 non-behaviours.
 
-Drawing some inspiration from Bill Eshmeyer [Eschmeyer's Catalog of Fishes](https://www.calacademy.org/scientists/projects/catalog-of-fishes), it is hoped that unless others can pick up and run with the ball in a timely and useful way, this ontology can gradually become a core resource for all kinds of scientist, 'citizen' or otherwise. Using only openly accessible sources, we hope one day to reference all animal behaviours, their label and synonym origins, definitions and earliest uses, and their hierarchical relations.
+Drawing some inspiration from Bill Eshmeyer (see [Eschmeyer's Catalog of Fishes](https://www.calacademy.org/scientists/projects/catalog-of-fishes)), it is hoped that unless others can pick up and run with the ball in a timely and useful way, this ontology can gradually become a core resource for all kinds of scientist, 'citizen' or otherwise. Using only openly accessible sources, we hope one day to reference all animal behaviours, their label and synonym origins, definitions and earliest uses, and their hierarchical relations.
 
 [^1]: If you can't access this article, try searching for its title in Google Scholar to see if there are alternative sources.
