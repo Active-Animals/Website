@@ -192,4 +192,7 @@ Links to scientifically robust external resources which illustrate a behaviour, 
 ###### TYPE
 Type examples should come from within the iNaturalist catalogue, or other hobbyist repositories (i.e. not scientific sources). They should be offered or agreed to by their originator. Once added, they should not be changed without a discussion.
 
+#### Leaf (terminal) classes
+Where a class has no subclasses (i.e. it is a leaf or terminal class), a new Instance can be considered. Where a class has subclasses, Instances should only exist to illustrate key elements missing from the subclasses. Otherwise, it is redundant and should be deleted unless justified in an rdfs:comment.
+
 -----
