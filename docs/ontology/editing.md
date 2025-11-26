@@ -270,4 +270,31 @@ The number of examples should be very constricted, preferably to one overall, bu
 2. Evocative description
 3. Generalisability
 
+#### Instances
+##### Illustrations
+Most important are production values (clarity, aesthetics, story, etc) and utility (accessibility, comprehensiveness), with age-related features only being key if they have some historical weight (e.g. a classic photo).
+
+##### Type
+This should be the earliest AAO-user example that clearly shows the behaviour in question. This is both an incentive and a credit to those of us for whom this is our hobby.
+
+#### Top classes
+Several key principles apply to successful ontologies. They should be:
+
+>open, orthogonal, instantiated in a well-specified syntax and designed to share a common space of identifiers
+>
+<p style="text-align: right">
+  <a href="https://doi.org/10.1038/nbt1346">OBO Foundry (Smith et al)</a>
+</p>
+
+Accordingly, we have reused classes defined in other ontologies for our top level classes:
+
+  - GO:0007610 behavior, comes from a primordial ontology called the Gene Ontology (GO), and is widely reused amongst other ontologies. Its core is borrowed directly from a 2009 paper, doi:10.1016/j.anbehav.2009.03.018
+  NB: behavior in GO is defined as a process, and as such it is a branch of an almost fundamental ontological category: 'occurrent'. This group is defined as, "An entity that has temporal parts and that happens, unfolds or develops through time." For now we have avoided using the category in the ontology, being loathe to allow 'behavior' to disappear from first line view of users.
+
+  - BFO:0000002 continuant, is contradistinct to 'occurrent'. It lies at the heart of several sub-branches, not least a key ontology called the Phenotype And Trait Ontology (PATO) with its branch PATO:0000001 quality. Continuants should all be imported in this ontology.
+
+  - Several other imported process branches line up alongside behavior because they too are occurrents, but they are less critical to understanding our ontology terms: 'environmental system process', 'life cycle stage', and 'mental process'.
+
+NB: Many of our terms could have been reused from the Neuro Behaviour Ontology (NBO). However most terms there don't match our criteria for proper definition, or come without an appropriate external reference. Furthermore, the ontology has not been owned and maintained effectively for many years. Indeed, some efforts have been made to obsolete its terms in favour of near equivalents in other ontologies, or to transfer ownerships to other ontologies, not least from its phenotype branch. Hypothetically, the same could apply to many of the terms on its behavior branch in favour of our ontology. Hence, in due course, we hope to annotate many terms with rdfs:seeAlso or hasDbXref [NBO_???????], but do not plan to import any NBO term.
+
 -----
