@@ -130,6 +130,8 @@ Annotate with hasDefinition, and sub-annotate that with dc:source and dc:contrib
 Where more than one source is used to create a definition, give each as a sub-annotated dc:source. Also quote from each as a skos:scopeNote, but add the source in brackets to link it back, because sub-sub-annotating is not possible in WebProtégé.
 
 ##### Tautology
+Do not use the term label or its root within its own definition, unless in a clarifiying sentence after the first full-stop. An exception may occur where the label is apparently partly composed from its actual or potential ontological parents, parts, participants, or attributes (e.g. terrestrial-lateral-undulating). Another is where the label is one of a set of invariant and exclusive subdivisions (e.g. spawning may only involve eggs or sperm). In any case, remain open to adopting alternative terminology.
 
+NB: Some judgement may be needed about how far back roots should be sought (e.g. are feign and feint from separate French words or the same Latin word), but try to avoid a debate if possible.
 
 -----
