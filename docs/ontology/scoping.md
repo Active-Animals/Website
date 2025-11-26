@@ -2,7 +2,7 @@
 
 Welcome! We're all about classifying animal behaviour and cataloguing observations.
 
-## Scoping
+## SCOPING
 
 On our [Introduction](index) page, you can find out more about our use case, model, and how to participate. Here we will outline our situation assessment.
 
