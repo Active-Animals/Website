@@ -4,9 +4,13 @@ Welcome! We're all about classifying animal behaviour and cataloguing observatio
 
 ## EDITING
 
-On our [INTRODUCTION](index) page, you can find out more about our use case, model, and how to participate. ***If you would like to collaborate, check out its section: [Can I contribute?](index#can-i-contribute)***
+On our [INTRODUCTION](index) page, you can find out more about our use case, model, and how to participate. **If you would like to collaborate, first check out its section: [Can I contribute?](index#can-i-contribute)**
 
-Here we will outline our guidelines and rules for contributing to the ontology.
+Here we will outline our guidelines and rules for contributing to the ontology via the collaborative, online, ontology editor: WebProtégé.
+
+*See the footnote if you want to suggest edits to this website*[^1]
+
+[^1]: Feel free to click the 'View on GitHub' button, then click 'Issues' in the top bar, and create a new one by clicking 'New issue'. Explain your suggestion and we will look into it. Of course, if you are familiar with GitHub, you can create a branch, make and commit your edits, and create a pull request. If it is more than a simple edit though, we suggest you tie it to an issue so some discussion can be had in advance of the pull request.
 
 ### Using WebProtégé
 
@@ -29,7 +33,7 @@ The [other](https://www.youtube.com/watch?v=fkBjRfQGoXQ) is much more modern and
 
 You do not actually need to know how to do much that these guides talk about, as you will be editing a previously set up ontology. Not only will you probably be set up initially to just Comment (see Tip 9 above), but you will be offered support, probably in the form of a one-to-one online screen-sharing tutorial, if you are invited to collaborate during the Alpha phase.
 
-If you really want to delve into ontology engineering (including 'hardcore' Protégé), you can steer yourself through anything that takes your fancy at the [OBO Semantic Engineering Training](https://oboacademy.github.io/obook) site.
+If you really want to delve into ontology engineering (including desktop Protégé), you can steer yourself through anything that takes your fancy at the [OBO Semantic Engineering Training](https://oboacademy.github.io/obook) site.
 
 ### Always...
 
@@ -43,7 +47,7 @@ Only if a thematic edit is undertaken offline, multiple edits may be handled in 
 
 Every edit merged into WebProtégé is called a Commit. It may not be obvious what an edit is doing. Therefore WebProtégé automatically adds a title to each change you make which it merges in, focused on the activity undertaken.
 
-If approved, Protégé uploads overwriting the WebProtégé file will have an unhelpful generic title. This needs to be changed to give a useful idea of what the edit has done. Make a quick reference to any prior discussion on the site about the topic. If there is no prior discussion about the change within the history, it may be better to have the discussion first, but if it can't be helped, then add some reasoning for the change to the Commit.
+If approved by the manager to do, every Protégé upload will not only overwrite the WebProtégé base file (although it will leave Comments alone), but it will have an unhelpful generic Commit title. This needs to be changed to give a useful idea of what the edit has done, before finishing the upload. Make a quick reference to any prior discussion on the site about the topic. If there is no prior discussion about the change within the history, it may be better to have the discussion first, but if it can't be helped, then add some reasoning for the change to the Commit.
 
 NB: The primordial version of the ontology has been developed as a unitary draft, without edited Commits, but from the time joint editing started, the original author became subject to this expectation.
 
