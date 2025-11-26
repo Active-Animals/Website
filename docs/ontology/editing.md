@@ -126,4 +126,7 @@ Otherwise, even if the bulk of the definition comprises quotes, use hasDefinitio
 ##### Creating
 Annotate with hasDefinition, and sub-annotate that with dc:source and dc:contributor (even if you are the creator of the term). Every definition must be sourced, even if not quoted.
 
+##### Multi-sourcing
+Where more than one source is used to create a definition, give each as a sub-annotated dc:source. Also quote from each as a skos:scopeNote, but add the source in brackets to link it back, because sub-sub-annotating is not possible in WebProtégé.
+
 -----
