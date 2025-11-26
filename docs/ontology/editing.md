@@ -129,4 +129,7 @@ Annotate with hasDefinition, and sub-annotate that with dc:source and dc:contrib
 ##### Multi-sourcing
 Where more than one source is used to create a definition, give each as a sub-annotated dc:source. Also quote from each as a skos:scopeNote, but add the source in brackets to link it back, because sub-sub-annotating is not possible in WebProtégé.
 
+##### Tautology
+
+
 -----
