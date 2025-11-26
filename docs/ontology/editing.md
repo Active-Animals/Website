@@ -4,7 +4,9 @@ Welcome! We're all about classifying animal behaviour and cataloguing observatio
 
 ## EDITING
 
-On our [INTRODUCTION](index) page, you can find out more about our use case, model, and how to participate. Here we will outline our guidelines and rules for contributing to the ontology.
+On our [INTRODUCTION](index) page, you can find out more about our use case, model, and how to participate. ***If you would like to collaborate, check out its section: [Can I contribute?](index#can-i-contribute)***
+
+Here we will outline our guidelines and rules for contributing to the ontology.
 
 ### Always...
 
