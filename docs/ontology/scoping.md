@@ -4,7 +4,7 @@ Welcome! We're all about classifying animal behaviour and cataloguing observatio
 
 ## Scoping
 
-On our [Introduction](ontology/index) page, you can find out more about our use case, model, and how to participate. Here we will outline our situation assessment.
+On our [Introduction](index) page, you can find out more about our use case, model, and how to participate. Here we will outline our situation assessment.
 
 ### Why is it needed?
 
