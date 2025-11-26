@@ -195,4 +195,8 @@ Type examples should come from within the iNaturalist catalogue, or other hobbyi
 #### Leaf (terminal) classes
 Where a class has no subclasses (i.e. it is a leaf or terminal class), a new Instance can be considered. Where a class has subclasses, Instances should only exist to illustrate key elements missing from the subclasses. Otherwise, it is redundant and should be deleted unless justified in an rdfs:comment.
 
+#### Individuals
+Use the Individual tab in WebProtégé, or the Individuals by Class view in any tab in WebProtégé, to add details of the Instance to the relevant class.
+
+
 -----
