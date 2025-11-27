@@ -320,7 +320,7 @@ Disjointing may have profound effects elsewhere in the ontology and should be av
 #### Imports
 You can reference an imported class in this ontology. Missing terms can be searched for in [OLS](https://www.ebi.ac.uk/ols4) and considered for import; the most productive sources so far have been ENVO, PATO and UBERON. If it doesn't already exist, it could even be given an interim placeholder status provided that a New Term Request is going to be made to a relevant external ontology with a view to replacing our placeholder with the new term import.
 
-The new term must belong to an ontology which offers an appropriate Creative Commons license or equivalent permission. If an as yet unimported term is wanted, check our ontology's [Licenses](ontology/licences) page to see if the ontology is already covered. The license type will need to be referenced there before an edit can import one of its terms; only an editor with management's permission can approve the license of a new ontology for import to this ontology.
+The new term must belong to an ontology which offers an appropriate Creative Commons license or equivalent permission. If an as yet unimported term is wanted, check our ontology's [Licenses](licences) page to see if the ontology is already covered. The license type will need to be referenced there before an edit can import one of its terms; only an editor with management's permission can approve the license of a new ontology for import to this ontology.
 
 It is possible to edit imported terms, not least by deleting superfluous material. If adding any material to an import, always sub-annotate with a dc:contributor entry.
 
