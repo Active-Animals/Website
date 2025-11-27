@@ -264,7 +264,7 @@ Editors who create new terms using the WebProtégé portal will automatically ha
 All contributors are encouraged to flag their own inputs with annotation property dc:contributor, preferably using an [ORCID](https://orcid.org) ID or something similar, although your name is acceptable (but not just initials or username).
 
 #### Examples
-The number of examples should be very constricted, preferably to one overall, but up to one each of the following criteria if necessary. Please don't delete examples or add a fourth (or more) without a discussion in the relevant page's WebProtege comment tab. It should balance:
+The number of examples should be very constricted, preferably to one overall, but up to one each of the following criteria if necessary. Please don't delete examples or add a fourth (or more) without a discussion in the relevant page's WebProtégé comment tab. It should balance:
 
 1. Primordial publication
 2. Evocative description
@@ -297,5 +297,13 @@ Accordingly, we have reused classes defined in other ontologies for our top leve
   - Several other imported process branches line up alongside behavior because they too are occurrents, but they are less critical to understanding our ontology terms: 'environmental system process', 'life cycle stage', and 'mental process'.
 
 Many of our terms could have been reused from the [Neuro-Behavioural Ontology](https://www.ebi.ac.uk/ols4/ontologies/nbo) (NBO). However most terms there don't match our criteria for proper definition, or come without an appropriate external reference. Furthermore, the ontology has not been owned and maintained effectively for many years. Indeed, some efforts have been made to obsolete its terms in favour of near equivalents in other ontologies, or to transfer ownerships to other ontologies, not least from its phenotype branch. Hypothetically, the same could apply to many of the terms on its behavior branch in favour of our ontology. Hence, in due course, we hope to annotate many terms with rdfs:seeAlso or hasDbXref [NBO_???????], but do not plan to import any NBO term.
+
+### Relationships
+
+Every parent-child relationship is automatically accorded the inclusion 'is_a' (which is invisible to us). Be careful not to introduce circularity by making something a subclass of itself somewhere else in the map.
+
+Also be cautious about the direction of other kinds of relationship (called object properties) you add to a term, as it can affect reasoning if it is wrong (e.g. 'part_of' instead of 'has_part' can introduce the enigma in which, "all cats are animals and all animals are cats"). Our aim is to keep the number and kinds of relationship simple and limited. Feel free to introduce your argument in a WebProtégé comment if you feel the need for a new one. Only a manager should introduce new kinds of relationship.
+
+Delving under the surface of ontology engineering will reveal two basic types of data: occurrents (in the case of behaviour, these are all processes which may be on or off at any given time), and continuants (in our case, these are generally tangible objects like morphological qualities, which do not behave ephemerally). Some object properties should only be used when relating two terms of the same type. Some only when terms are of different types.
 
 -----
