@@ -306,4 +306,5 @@ Also be cautious about the direction of other kinds of relationship (called obje
 
 Delving under the surface of ontology engineering will reveal two basic types of data: occurrents (in the case of behaviour, these are all processes which may be on or off at any given time), and continuants (in our case, these are generally tangible objects like morphological qualities, which do not behave ephemerally). Some object properties should only be used when relating two terms of the same type. Some only when terms are of different types.
 
+
 -----
