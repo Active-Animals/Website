@@ -317,5 +317,17 @@ b. Another reason may be because related words imply synonymy, when this is not 
 
 Disjointing may have profound effects elsewhere in the ontology and should be avoided if possible. With synonymy, actual homonyms can be separated using the homonymous term's own ID as a prefix to identify it as having a different meaning. (NB: there should only ever be one term with any specific label, which will therefore be the primary word user and doesn't need an ID prefix - see [Synonyms](#synonyms).)
 
+#### Imports
+You can reference an imported class in this ontology. Missing terms can be searched for in [OLS](https://www.ebi.ac.uk/ols4) and considered for import; the most productive sources so far have been ENVO, PATO and UBERON. If it doesn't already exist, it could even be given an interim placeholder status provided that a New Term Request is going to be made to a relevant external ontology with a view to replacing our placeholder with the new term import.
+
+The new term must belong to an ontology which offers an appropriate Creative Commons license or equivalent permission. If an as yet unimported term is wanted, check our ontology's [Licenses](ontology/licences) page to see if the ontology is already covered. The license type will need to be referenced there before an edit can import one of its terms; only an editor with management's permission can approve the license of a new ontology for import to this ontology.
+
+It is possible to edit imported terms, not least by deleting superfluous material. If adding any material to an import, always sub-annotate with a dc:contributor entry.
+
+Don't modify the original rdfs:label. If instead of using hasExactSynonym you wish to relabel the term, use skos:prefLabel to add a label (and make sure your WebProtégé settings are set to view this in preference to rdfs:label when both exist).
+
+NB: For now, we will keep 'behavior' as top level label, respecting its GO origin as a high level imported term for a number of other related ontologies, despite a desire to favour 'behaviour' (which is its spelling in the quoted source) which will remain a synonym instead of skos:prefLabel.
+
+If re-importing (e.g. after an update in the original), a manager should merge it in desktop Protégé to avoid overwriting the term already imported to our ontology, as we will lose any of our own modifications. However, beware of imported terms which become obsolete in future updates and leave our edits free-floating.
 
 -----
