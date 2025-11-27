@@ -306,6 +306,12 @@ Also be cautious about the direction of other kinds of relationship (called obje
 
 Delving under the surface of ontology engineering will reveal two basic types of data: occurrents (in the case of behaviour, these are all processes which may be on or off at any given time), and continuants (in our case, these are generally tangible objects like morphological qualities, which do not behave ephemerally). Some object properties should only be used when relating two terms of the same type. Some only when terms are of different types.
 
+#### Object Properties
+##### characteristic of
+This should only be used when relating two pieces of continuant data. This will never be behaviour and may not happen at all in our ontology.
+
+Bear in mind before adding the relation, that the class which is 'characteristic of' another class must ALWAYS be so to be axiomatically correct. This is the inverse relation of 'has characteristic'.
+
 #### Disjoints
 Terms which need to clearly indicate their non-synonymy may occasionally need disjointing. This can be done in Desktop Protégé but not WebProtégé; it will not be visible in WebProtégé.
 
