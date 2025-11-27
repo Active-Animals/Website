@@ -306,5 +306,16 @@ Also be cautious about the direction of other kinds of relationship (called obje
 
 Delving under the surface of ontology engineering will reveal two basic types of data: occurrents (in the case of behaviour, these are all processes which may be on or off at any given time), and continuants (in our case, these are generally tangible objects like morphological qualities, which do not behave ephemerally). Some object properties should only be used when relating two terms of the same type. Some only when terms are of different types.
 
+#### Disjoints
+Terms which need to clearly indicate their non-synonymy may occasionally need disjointing. This can be done in Desktop Protégé but not WebProtégé; it will not be visible in WebProtégé.
+
+We can assume classes exclude each other, particularly if they are obviously opposites, and need not necessarily disjoint them.
+
+But confusion can sometimes arise if we do not axiomatically state otherwise:
+a. This may be because synonymously used words may have opposing meanings elsewhere.
+b. Another reason may be because related words imply synonymy, when this is not our intent.
+
+Disjointing may have profound effects elsewhere in the ontology and should be avoided if possible. With synonymy, actual homonyms can be separated using the homonymous term's own ID as a prefix to identify it as having a different meaning. (NB: there should only ever be one term with any specific label, which will therefore be the primary word user and doesn't need an ID prefix - see [Synonyms](#synonyms).)
+
 
 -----
