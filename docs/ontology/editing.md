@@ -331,6 +331,16 @@ Bear in mind before adding the relation, that the class which is part_of another
 
 NB: A Reasoner in Desktop Protégé may not flag misuse of this object property, because it is inherently defined rather loosely, and needs additional axioms to raise flags.
 
+##### has_participant
+The object property has_participant should only be used when relating an occurrent to a continuant, and even then, only in one direction (occurrent has_participant continuant). It is strongly defined and Desktop Protégé's Reasoner should always flag an error.
+
+Bear in mind before adding the relation, that the class which has_participant another class must ALWAYS do so to be axiomatically correct. This is the inverse relation of [participates_in](#participates_in).
+
+##### participates_in
+The object property participates_in should only be used when relating a continuant to an occurrent, and even then, only in one direction (continuant participates_in occurrent ). It is strongly defined and Desktop Protégé's Reasoner should always flag an error.
+
+Bear in mind before adding the relation, that the class which participates_in another class must ALWAYS do so to be axiomatically correct. This is the inverse relation of [has_participant](#has_participant).
+
 #### Disjoints
 Terms which need to clearly indicate their non-synonymy may occasionally need disjointing. This can be done in Desktop Protégé but not WebProtégé; it will not be visible in WebProtégé.
 
