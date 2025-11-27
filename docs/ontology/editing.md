@@ -307,16 +307,6 @@ Also be cautious about the direction of other kinds of relationship (called obje
 Delving under the surface of ontology engineering will reveal two basic types of data: occurrents (in the case of behaviour, these are all processes which may be on or off at any given time), and continuants (in our case, these are generally tangible objects like morphological qualities, which do not behave ephemerally). Some object properties should only be used when relating two terms of the same type. Some only when terms are of different types.
 
 #### Object Properties
-##### characteristic_of
-This should only be used when relating two pieces of continuant data. This will never be behaviour and may not happen at all in our ontology.
-
-Bear in mind before adding the relation, that the class which is characteristic of another class must ALWAYS be so to be axiomatically correct. This is the inverse relation of [has_characteristic](#has_characteristic).
-
-##### has_characteristic
-This should only be used when relating two pieces of continuant data. This will never be behaviour and will probably only happen in the rare instance where we have created a 'configuration' or an 'environmental situation'.
-
-Bear in mind before adding the relation, that the class which has_characteristic of another must ALWAYS be so to be axiomatically correct. This is the inverse relation of [characteristic_of](#characteristic_of).
-
 ##### has_part
 This should only be used when relating two pieces of data of the same type. In our case, one behaviour may has_part another behaviour, because both are occurrents. (Similarly, one anatomical structure may has_ part another one, because both are continuants.)
 
@@ -340,6 +330,21 @@ Bear in mind before adding the relation, that the class which has_participant an
 The object property participates_in should only be used when relating a continuant to an occurrent, and even then, only in one direction (continuant participates_in occurrent ). It is strongly defined and Desktop Protégé's Reasoner should always flag an error.
 
 Bear in mind before adding the relation, that the class which participates_in another class must ALWAYS do so to be axiomatically correct. This is the inverse relation of [has_participant](#has_participant).
+
+##### characteristic_of
+This should only be used when relating two pieces of continuant data. This will never be behaviour and may not happen at all in our ontology.
+
+Bear in mind before adding the relation, that the class which is characteristic of another class must ALWAYS be so to be axiomatically correct. This is the inverse relation of [has_characteristic](#has_characteristic).
+
+##### has_characteristic
+This should only be used when relating two pieces of continuant data. This will never be behaviour and will probably only happen in the rare instance where we have created a 'configuration' or an 'environmental situation'.
+
+Bear in mind before adding the relation, that the class which has_characteristic of another must ALWAYS be so to be axiomatically correct. This is the inverse relation of [characteristic_of](#characteristic_of).
+
+##### has_quality
+The object property has_quality should only be used when relating an occurrent to a quality (a particular form of continuant found most commonly in PATO). In our case, a behaviour may has_quality such a quality. (Formally, since has_quality is a sub-set of has_characteristic, the relationship should not work. However, some clever compromises underlying the relationship allow it to appear to work in just this special case.) This will be one of the most common connections our ontology makes to its imported classes.
+
+Bear in mind before adding the relation, that the class which has_quality another class must ALWAYS do so to be axiomatically correct. We will never see its inverse relation, as the aforesaid compromises are not simply reversible.
 
 #### Disjoints
 Terms which need to clearly indicate their non-synonymy may occasionally need disjointing. This can be done in Desktop Protégé but not WebProtégé; it will not be visible in WebProtégé.
