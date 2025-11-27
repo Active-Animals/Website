@@ -310,12 +310,21 @@ Delving under the surface of ontology engineering will reveal two basic types of
 ##### characteristic_of
 This should only be used when relating two pieces of continuant data. This will never be behaviour and may not happen at all in our ontology.
 
-Bear in mind before adding the relation, that the class which is characteristic of another class must ALWAYS be so to be axiomatically correct. This is the inverse relation of [has_characteristic](has-characteristic).
+Bear in mind before adding the relation, that the class which is characteristic of another class must ALWAYS be so to be axiomatically correct. This is the inverse relation of [has_characteristic](#has-characteristic).
 
 ##### has_characteristic
 This should only be used when relating two pieces of continuant data. This will never be behaviour and will probably only happen in the rare instance where we have created a 'configuration' or an 'environmental situation'.
 
-Bear in mind before adding the relation, that the class which has_characteristic of another must ALWAYS be so to be axiomatically correct. This is the inverse relation of [characteristic_of](characteristic-of).
+Bear in mind before adding the relation, that the class which has_characteristic of another must ALWAYS be so to be axiomatically correct. This is the inverse relation of [characteristic_of](#characteristic-of).
+
+##### has_part
+This should only be used when relating two pieces of data of the same type. In our case, one behaviour may has_part another behaviour, because both are occurrents. (Similarly, one anatomical structure may has_ part another one, because both are continuants.)
+
+Bear in mind before adding the relation, that the class which has_ part another class must ALWAYS do so to be axiomatically correct. This is the inverse relation of [part_of](#part-of).
+
+NB: A Reasoner in Desktop Protege may not flag misuse of this object property, because it is inherently defined rather loosely, and needs additional axioms to raise flags.
+
+##### part_of
 
 #### Disjoints
 Terms which need to clearly indicate their non-synonymy may occasionally need disjointing. This can be done in Desktop Protégé but not WebProtégé; it will not be visible in WebProtégé.
