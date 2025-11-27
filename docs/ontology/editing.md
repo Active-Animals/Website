@@ -322,14 +322,24 @@ Bear in mind before adding the relation, that the class which is part_of another
 NB: A Reasoner in Desktop Protégé may not flag misuse of this object property, because it is inherently defined rather loosely, and needs additional axioms to raise flags.
 
 ##### has_participant
-The object property has_participant should only be used when relating an occurrent to a continuant, and even then, only in one direction (occurrent has_participant continuant). It is strongly defined and Desktop Protégé's Reasoner should always flag an error.
+This should only be used when relating an occurrent to a continuant, and even then, only in one direction (occurrent has_participant continuant). It is strongly defined and Desktop Protégé's Reasoner should always flag an error.
 
 Bear in mind before adding the relation, that the class which has_participant another class must ALWAYS do so to be axiomatically correct. This is the inverse relation of [participates_in](#participates_in).
 
 ##### participates_in
-The object property participates_in should only be used when relating a continuant to an occurrent, and even then, only in one direction (continuant participates_in occurrent ). It is strongly defined and Desktop Protégé's Reasoner should always flag an error.
+This should only be used when relating a continuant to an occurrent, and even then, only in one direction (continuant participates_in occurrent ). It is strongly defined and Desktop Protégé's Reasoner should always flag an error.
 
 Bear in mind before adding the relation, that the class which participates_in another class must ALWAYS do so to be axiomatically correct. This is the inverse relation of [has_participant](#has_participant).
+
+##### realizes
+This should only be used when an occurrent relates to a realizable entity (a special type of continuant), i.e. occurrent realizes realizable entity.
+
+Bear in mind before adding the relation, that the class which realizes another class must ALWAYS do so to be axiomatically correct. This is the inverse relation of [realized_in](#realized_in).
+
+##### realized_in
+This should only be used when a realizable entity (a special type of continuant) relates to an occurrent, i.e. realizable entity realized_in occurrent.
+
+Bear in mind before adding the relation, that the class which is realized_in another class must ALWAYS do so to be axiomatically correct. This is the inverse relation of [realizes](#realizes).
 
 ##### characteristic_of
 This should only be used when relating two pieces of continuant data. This will never be behaviour and may not happen at all in our ontology.
@@ -342,7 +352,7 @@ This should only be used when relating two pieces of continuant data. This will 
 Bear in mind before adding the relation, that the class which has_characteristic of another must ALWAYS be so to be axiomatically correct. This is the inverse relation of [characteristic_of](#characteristic_of).
 
 ##### has_quality
-The object property has_quality should only be used when relating an occurrent to a quality (a particular form of continuant found most commonly in PATO). In our case, a behaviour may has_quality such a quality. (Formally, since has_quality is a sub-set of has_characteristic, the relationship should not work. However, some clever compromises underlying the relationship allow it to appear to work in just this special case.) This will be one of the most common connections our ontology makes to its imported classes.
+This should only be used when relating an occurrent to a quality (a particular form of continuant found most commonly in PATO). In our case, a behaviour may has_quality such a quality. (Formally, since has_quality is a sub-set of has_characteristic, the relationship should not work. However, some clever compromises underlying the relationship allow it to appear to work in just this special case.) This will be one of the most common connections our ontology makes to its imported classes.
 
 Bear in mind before adding the relation, that the class which has_quality another class must ALWAYS do so to be axiomatically correct. We will never see its inverse relation, as the aforesaid compromises are not simply reversible.
 
