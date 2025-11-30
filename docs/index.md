@@ -8,7 +8,7 @@ We are currently in the Alpha phase, so many aspects of the Active Animals initi
 
 We operate with a **[ CC0 1.0 ](https://creativecommons.org/publicdomain/zero/1.0/)  No Copyright** licence.
 
-## Ontology
+## Behaviour Ontology
 
 If you're interested in the business of classifying animal behaviour, this is the place for you.
 
@@ -18,14 +18,14 @@ Its [SCOPING](ontology/scoping) page reflects on the need for it and a potted hi
 
 If you're keen on collaborating to develop the **technology** processes for it, to curate its **content**, or to support its **public** facies such as this website, take a look at the [EDITING](ontology/editing) page.
 
-## Labels
+## Behaviour Labels
 
 The ontology hosts a plethora of labels, synonyms, definitions, and other provenance or explanatory information. Most users will not come here to look at the detailed ontology though. They will want to search a more simple catalogue for labels to apply to behaviours they have observed and recorded, perhaps as photos, videos, or recordings.
 
 This function is not yet finalised for general users. if however, you wish to stress-test the ontology's labels against your observations, feel free to contact the manager to see if you can have access to the ontology directly. Check out the INTRODUCTION section: [Can I contribute?](/ontologyindex#can-i-contribute)
 
-## Repositories
+## Observation Repositories
 
-### Active Animals at iNaturalist
+#### Active Animals at iNaturalist
 
 The [Active Animals (AA)](https://www.inaturalist.org/projects/active-animals-aa) project at iNaturalist is a way for animal behavioural records to be aggregated systematically there. Still in its Alpha phase, it can be viewed by anyone, but new membership is limited to stress-testers (see [Labels](#labels)).
