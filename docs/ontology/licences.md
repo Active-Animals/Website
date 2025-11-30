@@ -31,3 +31,4 @@ Please understand and follow the licensing requirements of any imported ontology
 #### BFO - Basic Formal Ontology [ CC BY 4.0 ](https://creativecommons.org/licenses/by/4.0/)
 #### BIOLINK - Biolink-Model [ CC0 1.0 ](https://creativecommons.org/publicdomain/zero/1.0/)
 #### BSPO - Biological Spatial Ontology [ CC BY 3.0 ](https://creativecommons.org/licenses/by/3.0/)
+#### CARO - Common Anatomy Reference Ontology [ CC BY 4.0 ](https://creativecommons.org/licenses/by/4.0/)
