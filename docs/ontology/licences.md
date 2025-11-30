@@ -33,3 +33,4 @@ Please understand and follow the licensing requirements of any imported ontology
 #### BSPO - Biological Spatial Ontology [ CC BY 3.0 ](https://creativecommons.org/licenses/by/3.0/)
 #### CARO - Common Anatomy Reference Ontology [ CC BY 4.0 ](https://creativecommons.org/licenses/by/4.0/)
 #### CHEBI - Chemical Entities of Biological Interest [ CC BY 4.0 ](https://creativecommons.org/licenses/by/4.0/)
+#### CL - Cell Ontology [ CC BY 4.0 ](https://creativecommons.org/licenses/by/4.0/)
