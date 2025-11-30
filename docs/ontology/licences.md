@@ -4,6 +4,8 @@ Welcome! We're all about classifying animal behaviour and cataloguing observatio
 
 ## LICENSING
 
+On our [INTRODUCTION](index) page, you can find out more about our use case, model, and how to participate. Here we will note our licensing expectations.
+
 **This Licence section should only to be edited by someone with management's permission.**
 
 **Please do not add imports from any unlisted ontology without management's permission.**
