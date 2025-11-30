@@ -20,6 +20,12 @@ If you're keen on collaborating to develop the **technology** processes for it, 
 
 ## Labels
 
-The ontology hosts a plethora of labels, synonyms, definitions, and other provenance or explanatory information. Most users will not come here to look at the detailed ontology though. They will want to search out labels to apply to behaviours they have observed and recorded, perhaps as photos, videos, or recordings.
+The ontology hosts a plethora of labels, synonyms, definitions, and other provenance or explanatory information. Most users will not come here to look at the detailed ontology though. They will want to search a more simple catalogue for labels to apply to behaviours they have observed and recorded, perhaps as photos, videos, or recordings.
 
-This function is not yet finalised for general users. if however, you wish to stress-test the ontology's labels against your observations, feel free to contact the manager to see if there is room for you to have access to the ontology directly. Check out the INTRODUCTION section: [Can I contribute?](/ontologyindex#can-i-contribute)
+This function is not yet finalised for general users. if however, you wish to stress-test the ontology's labels against your observations, feel free to contact the manager to see if you can have access to the ontology directly. Check out the INTRODUCTION section: [Can I contribute?](/ontologyindex#can-i-contribute)
+
+## Repositories
+
+### Active Animals at iNaturalist
+
+The [Active Animals (AA)](https://www.inaturalist.org/projects/active-animals-aa) project at iNaturalist is a way for animal behavioural records to be aggregated systematically there. Still in its Alpha phase, it can be viewed by anyone, but new membership is limited to stress-testers (see [Labels](#labels)).
