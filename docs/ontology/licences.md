@@ -45,3 +45,4 @@ Please understand and follow the licensing requirements of any imported ontology
 #### NCIT - NCI Thesaurus OBO Edition. "Unless otherwise indicated, all text within National Cancer Institute (NCI) products is [free of copyright](https://www.cancer.gov/policies/copyright-reuse) and may be reused without our permission. Credit the National Cancer Institute as the source."
 #### PATO - the Phenotype And Trait Ontology [ CC BY 3.0 ](https://creativecommons.org/licenses/by/3.0/)
 #### PCO - Population and Community Ontology [ CC0 1.0 ](https://creativecommons.org/publicdomain/zero/1.0/)
+#### PO - Plant Ontology [ CC BY 4.0 ](https://creativecommons.org/licenses/by/4.0/)
