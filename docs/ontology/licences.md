@@ -25,3 +25,4 @@ You can copy, modify, distribute and perform the work, even for commercial purpo
 Please understand and follow the licensing requirements of any imported ontology terms you might use. All imported terms come from ontologies with a form of Creative Commons licence or a form of government open access licence. The links are given below.
 
 #### AFO - Allotrope Foundation Ontology Merged Without QUDT And Inferred [ CC BY 4.0 ](https://creativecommons.org/licenses/by/4.0/)
+#### BCIO - The Behaviour Change Intervention Ontology [ CC BY 4.0 ](https://creativecommons.org/licenses/by/4.0/)
