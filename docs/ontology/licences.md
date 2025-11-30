@@ -46,3 +46,4 @@ Please understand and follow the licensing requirements of any imported ontology
 #### PATO - the Phenotype And Trait Ontology [ CC BY 3.0 ](https://creativecommons.org/licenses/by/3.0/)
 #### PCO - Population and Community Ontology [ CC0 1.0 ](https://creativecommons.org/publicdomain/zero/1.0/)
 #### PO - Plant Ontology [ CC BY 4.0 ](https://creativecommons.org/licenses/by/4.0/)
+#### SIO - Semanticscience Integrated Ontology [ CC BY 4.0 ](https://creativecommons.org/licenses/by/4.0/)
