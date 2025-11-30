@@ -48,3 +48,4 @@ Please understand and follow the licensing requirements of any imported ontology
 #### PO - Plant Ontology [ CC BY 4.0 ](https://creativecommons.org/licenses/by/4.0/)
 #### SIO - Semanticscience Integrated Ontology [ CC BY 4.0 ](https://creativecommons.org/licenses/by/4.0/)
 #### UBERON - Uber-anatomy ontology [ CC BY 3.0 ](https://creativecommons.org/licenses/by/3.0/)
+#### ZFA - Zebrafish Anatomy Ontology [ CC BY 3.0 ](https://creativecommons.org/licenses/by/3.0/)
