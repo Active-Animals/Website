@@ -17,3 +17,8 @@ The person who associated a work with this deed has dedicated the work to the pu
 You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.
 
 ***By contributing to this ontology, you agree that your contributions are covered by these terms.***
+
+### Imported ontologies
+
+Please understand and follow the licensing requirements of any imported ontology terms you might use. All imported terms come from ontologies with a form of Creative Commons license or a form of government open access license. The links are given below.
+
