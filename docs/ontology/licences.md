@@ -37,3 +37,4 @@ Please understand and follow the licensing requirements of any imported ontology
 #### ECOCORE - An ontology of core ecological entities [ CC BY 3.0 ](https://creativecommons.org/licenses/by/3.0/)
 #### ENVO - The Environment Ontology [ CC0 1.0 ](https://creativecommons.org/publicdomain/zero/1.0/)
 #### GO - Gene Ontology [ CC BY 4.0 ](https://creativecommons.org/licenses/by/4.0/)
+#### ICO - The Informed Consent Ontology [ CC BY 4.0 ](https://creativecommons.org/licenses/by/4.0/)
