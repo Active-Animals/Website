@@ -94,7 +94,7 @@ Only in the open, final phase will the ontology be fully open. This stage will a
 
 Feel free to look over our [EDITING](editing) guidelines.
 
-*Bear in mind that this ontology has [NO COPYRIGHT](licenses), so neither will any of your contributions to it.*
+*Bear in mind that this ontology has [NO COPYRIGHT](licences), so neither will any of your contributions to it.*
 
 ***If you would like to collaborate, feel free to contact [Ditch Townsend](https://orcid.org/0000-0002-4277-2151)***
 
