@@ -23,6 +23,8 @@ Here we will outline our guidelines and rules for contributing to the ontology v
   - Unless you have the manager's permission, please don't download to work offline with another editor such as Protégé and then upload, as you will overwrite the whole project, losing other peoples' changes since your last download.
 
 #### Guides
+A very early [slideshow](https://www.slideshare.net/slideshow/semtech-webprotegetutorial/22328670) offers glimpses into the history and utility of WebProtégé.
+
 There is a basic [user guide](https://protegewiki.stanford.edu/wiki/WebProtegeUsersGuide) available at WebProtégé. Only one of its screencast links works (the first link below).
 
 Only two useful videos seem to be available to help. One is an early version [demo](http://www.youtube.com/watch?v=QvURiHVXnQQ), but it gives a feel for things, although the layout is outdated.
