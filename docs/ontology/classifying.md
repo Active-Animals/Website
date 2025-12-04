@@ -12,24 +12,41 @@ WIP
 <script src="quick_jump.js" type="text/javascript" charset="utf-8"></script>
 
 <script type="text/javascript">
-    jQuery(function($){
-        var input = $('#bp_quick_jump input');
+jQuery(function($){
+    var input = $('#bp_quick_jump input');
 
-        function attachAutocomplete() {
-            input.off('bioportal_autocomplete_select'); // remove previous handler
-            input.on('bioportal_autocomplete_select', function(e, data){
-                if(data && data.ontology && data.conceptId){
-                    var url = 'https://bioportal.bioontology.org/ontologies/' + encodeURIComponent(data.ontology) + '/?p=terms&conceptid=' + encodeURIComponent(data.conceptId);
-                    window.open(url, '_blank');
-                }
+    function attachAutocomplete() {
+        input.off('bioportal_autocomplete_select');
 
-                // reset the input for a new search
-                setTimeout(function(){
-                    input.val('');
-                    attachAutocomplete(); // re-attach handler for the next search
-                }, 50);
-            });
-        }
+        input.on('bioportal_autocomplete_select', function(e, data){
+            if(data && data.ontology && data.conceptId){
+                var url = 'https://bioportal.bioontology.org/ontologies/' +
+                          encodeURIComponent(data.ontology) +
+                          '/?p=terms&conceptid=' +
+                          encodeURIComponent(data.conceptId);
+                window.open(url, '_blank');
+            }
 
-        attachAutocomplete(); // initial attach
-    });
+            setTimeout(function(){
+                input.val('');
+                attachAutocomplete();
+            }, 50);
+        });
+
+        // Also capture clicks on the autocomplete menu items directly
+        $(document).on('click', '.ui-menu-item', function(){
+            var item = $(this).data('ui-autocomplete-item');
+            if(item && item.ontology && item.conceptId){
+                var url = 'https://bioportal.bioontology.org/ontologies/' +
+                          encodeURIComponent(item.ontology) +
+                          '/?p=terms&conceptid=' +
+                          encodeURIComponent(item.conceptId);
+                window.open(url, '_blank');
+                input.val('');
+            }
+        });
+    }
+
+    attachAutocomplete();
+});
+</script>
