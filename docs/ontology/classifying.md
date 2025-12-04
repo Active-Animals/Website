@@ -1,6 +1,6 @@
 WIP
 
-<div id="bp_quick_jump" data-apikey="96ba3d84-e3d8-45bc-99cb-2810d15eed4d"></div>
+<div id="bp_quick_jump"></div>
 
 <script type="text/javascript">
     var BP_ontology_id = "ENVO";
@@ -16,33 +16,22 @@ jQuery(function($){
     var input = $('#bp_quick_jump input');
 
     function attachAutocomplete() {
-        input.off('bioportal_autocomplete_select');
+        if (input.data('ui-autocomplete')) {
+            input.autocomplete('destroy');
+        }
 
-        input.on('bioportal_autocomplete_select', function(e, data){
-            if(data && data.ontology && data.conceptId){
-                var url = 'https://bioportal.bioontology.org/ontologies/' +
-                          encodeURIComponent(data.ontology) +
-                          '/?p=terms&conceptid=' +
-                          encodeURIComponent(data.conceptId);
-                window.open(url, '_blank');
-            }
-
-            setTimeout(function(){
-                input.val('');
-                attachAutocomplete();
-            }, 50);
-        });
-
-        // Also capture clicks on the autocomplete menu items directly
-        $(document).on('click', '.ui-menu-item', function(){
-            var item = $(this).data('ui-autocomplete-item');
-            if(item && item.ontology && item.conceptId){
-                var url = 'https://bioportal.bioontology.org/ontologies/' +
-                          encodeURIComponent(item.ontology) +
-                          '/?p=terms&conceptid=' +
-                          encodeURIComponent(item.conceptId);
-                window.open(url, '_blank');
-                input.val('');
+        input.bioportal_autocomplete({
+            ontology: BP_ontology_id,
+            select: function(event, ui){
+                if(ui.item && ui.item.ontology && ui.item.conceptId){
+                    var url = 'https://bioportal.bioontology.org/ontologies/' +
+                              encodeURIComponent(ui.item.ontology) +
+                              '/?p=terms&conceptid=' +
+                              encodeURIComponent(ui.item.conceptId);
+                    window.open(url, '_blank');
+                    input.val('');
+                    return false;
+                }
             }
         });
     }
@@ -50,3 +39,4 @@ jQuery(function($){
     attachAutocomplete();
 });
 </script>
+
