@@ -12,3 +12,16 @@ WIP
 <script src="https://bioportal.bioontology.org/javascripts/plugins/jquery.bioportal_autocomplete.js"></script>
 
 <script src="quick_jump.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+    jQuery(function($){
+        var input = $('#bp_quick_jump input');
+
+        input.on('bioportal_autocomplete_select', function(e, data){
+            if(data && data.ontology && data.conceptId){
+                var url = 'https://bioportal.bioontology.org/ontologies/' + encodeURIComponent(data.ontology) + '/?p=terms&conceptid=' + encodeURIComponent(data.conceptId);
+                window.open(url, '_blank');
+            }
+        });
+    });
+</script>
