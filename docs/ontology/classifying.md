@@ -12,31 +12,25 @@ WIP
 <script src="quick_jump.js" type="text/javascript" charset="utf-8"></script>
 
 <script type="text/javascript">
-jQuery(function($){
-    var input = $('#bp_quick_jump input');
+    jQuery(function($){
+        var input = $('#bp_quick_jump input');
 
-    function attachAutocomplete() {
-        if (input.data('ui-autocomplete')) {
-            input.autocomplete('destroy');
+        function attachAutocomplete() {
+            input.off('bioportal_autocomplete_select'); // remove previous handler
+            input.on('bioportal_autocomplete_select', function(e, data){
+                if(data && data.ontology && data.conceptId){
+                    var url = 'https://bioportal.bioontology.org/ontologies/' + encodeURIComponent(data.ontology) + '/?p=terms&conceptid=' + encodeURIComponent(data.conceptId);
+                    window.open(url, '_blank');
+                }
+
+                // reset the input for a new search
+                setTimeout(function(){
+                    input.val('');
+                    attachAutocomplete(); // re-attach handler for the next search
+                }, 50);
+            });
         }
 
-        input.bioportal_autocomplete({
-            ontology: BP_ontology_id,
-            select: function(event, ui){
-                if(ui.item && ui.item.ontology && ui.item.conceptId){
-                    var url = 'https://bioportal.bioontology.org/ontologies/' +
-                              encodeURIComponent(ui.item.ontology) +
-                              '/?p=terms&conceptid=' +
-                              encodeURIComponent(ui.item.conceptId);
-                    window.open(url, '_blank');
-                    input.val('');
-                    return false;
-                }
-            }
-        });
-    }
-
-    attachAutocomplete();
-});
+        attachAutocomplete(); // initial attach
+    });
 </script>
-
