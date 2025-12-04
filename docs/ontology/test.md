@@ -39,3 +39,10 @@ jQuery(function($){
     attachAutocomplete();
 });
 </script>
+
+
+
+<iframe 
+    frameborder="0" 
+    src="https://bioportal.bioontology.org/widgets/visualization?ontology=ENVO&class=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FENVO_01000060&apikey=96ba3d84-e3d8-45bc-99cb-2810d15eed4d">
+</iframe>
