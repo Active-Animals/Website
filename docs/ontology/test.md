@@ -4,7 +4,7 @@ WIP
 
 <script type="text/javascript">
     var BP_ontology_id = "ENVO";
-    var BP_search_branch = "{BFO_0000040}";
+    var BP_search_branch = "{ENVO_01000060}";
 </script>
 
 <script src="https://code.jquery.com/jquery-1.11.2.min.js">
