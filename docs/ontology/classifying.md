@@ -4,6 +4,7 @@ WIP
 
 <script type="text/javascript">
     var BP_ontology_id = "ENVO";</script>
+    var BP_include_definitions = true;
 
 <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
