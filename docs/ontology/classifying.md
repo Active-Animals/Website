@@ -3,9 +3,10 @@ WIP
 <div id="bp_quick_jump"></div>
 
 <script type="text/javascript">
-    var BP_ontology_id = "ENVO";
-    var BP_include_definitions = true;
-</script>
+    var BP_ontology_id = "ENVO";</script>
+
+<script type="text/javascript">
+    var BP_include_definitions = true;</script>
 
 <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
