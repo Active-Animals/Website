@@ -4,7 +4,7 @@ WIP
 
 <script type="text/javascript">
     var BP_ontology_id = "ENVO";
-    var BP_search_branch = "{ENVO:01000060}";
+    var BP_search_branch = "http://purl.obolibrary.org/obo/ENVO_01000060";
 </script>
 
 <script src="https://code.jquery.com/jquery-1.11.2.min.js">
