@@ -45,5 +45,5 @@ jQuery(function($){
 <iframe 
     frameborder="0" 
     src="https://bioportal.bioontology.org/widgets/visualization?ontology=ENVO&class=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FENVO_01000060&apikey=96ba3d84-e3d8-45bc-99cb-2810d15eed4d">
-    style="width: 100%; height: 1000px; display: block;">
+    style="width: 800px; height: 800px; display: block;">
 </iframe>
