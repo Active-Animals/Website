@@ -75,7 +75,7 @@ if (BP_ontology_id == undefined || BP_ontology_id == "all") {
 }
 
 if (BP_search_branch == undefined) {
-    var BP_search_branch = ""
+    var BP_search_branch = "http://purl.obolibrary.org/obo/ENVO_01000060"
 }
 
 if (typeof BP_include_definitions === 'undefined' || BP_include_definitions !== true) {
@@ -318,3 +318,4 @@ function truncateText(text, max_length) {
     text_short += "<span class='long_text'>" + other_text + "</span>";
     return text_short;
 }
+
