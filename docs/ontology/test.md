@@ -10,7 +10,7 @@ WIP
 <script src="https://code.jquery.com/jquery-1.11.2.min.js">
 </script>
 
-<script src="https://bioportal.bioontology.org/javascripts/widgets/quick_jump.js">
+<script src="quick_jump.js" type="text/javascript" charset="utf-8">
 </script>
 
 <script type="text/javascript">
