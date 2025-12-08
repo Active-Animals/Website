@@ -40,11 +40,11 @@ In addition, it offers a range of non-behavioural classes (e.g. qualities), main
 
 #### What isn't the AAO?
 
-This is not a reference for potentially maladaptive behaviours, and excludes so-called abnormal, aberrant, deficient, pathological, diseased, or impaired behaviour. We acknowledge that some acute stress-related behaviours are adaptive and so include them, but that chronic stress leads to maladaptive or compensatory behaviours, which we therefore do not include.
+This is not a reference for potentially maladaptive behaviours, and excludes so-called abnormal, aberrant, deficient, pathological, diseased, phenotypic, or impaired behaviour. We acknowledge that some acute stress-related behaviours are adaptive and so include them, but that chronic stress leads to maladaptive or compensatory behaviours, which we therefore do not include.
 
-However, damage, variability, phenotype, and physiological state are referenced in the non-behaviour part of this ontology, alongside personality. These are all possible modulators of what could otherwise be adaptive behaviours.
+Similarly, we are not examining individual variations in behaviour, even sustained ones such as those included in a personality.
 
-NB: We are not describing specific individuals, except as Instances for illustration and typing.
+Even more particularly, we are not describing specific individuals, except as Instances for illustration and typing.
 
 ### How does it work?
 
